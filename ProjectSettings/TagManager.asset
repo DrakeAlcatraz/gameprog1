@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - PlayerAttack
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -44,8 +46,9 @@ TagManager:
   - name: bg
     uniqueID: 2190126127
     locked: 0
-  - name: New Layer 2
+  - name: Game Area
     uniqueID: 1363340289
     locked: 0
   m_RenderingLayers:
   - Default
+  - Layer 1
