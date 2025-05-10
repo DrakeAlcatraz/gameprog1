@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c89192a505cc27a45a74906edc6e2757
+guid: 2a107cb566eae704483faf1f242432a5
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sddefault-removebg-preview_0: -3645163845087726208
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
