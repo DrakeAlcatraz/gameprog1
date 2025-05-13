@@ -1,87 +1,60 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InfiniteTileGenerator : MonoBehaviour
+public class ChunkSpawner : MonoBehaviour
 {
-    public GameObject tilePrefab;
+    public GameObject chunkPrefab;
     public Transform player;
-    public int buffer = 1; // number of extra tiles beyond screen edge
+    public float chunkSize = 20f; // size of one prefab in world units
+    public int spawnRange = 1;    // how many chunks around the player to spawn
 
-    private int tileSize = 5;
-    private Dictionary<Vector2Int, GameObject> spawnedTiles = new Dictionary<Vector2Int, GameObject>();
-    private Camera cam;
+    private HashSet<Vector2Int> spawnedChunks = new HashSet<Vector2Int>();
 
     void Start()
     {
-        cam = Camera.main;
-
         if (player == null)
         {
-            GameObject foundPlayer = GameObject.FindGameObjectWithTag("Player");
-            if (foundPlayer != null)
-                player = foundPlayer.transform;
-            else
-                Debug.LogError("Player not assigned and no object tagged 'Player' found.");
+            GameObject p = GameObject.FindGameObjectWithTag("Player");
+            if (p != null) player = p.transform;
+            else Debug.LogError("Player not assigned and no object tagged 'Player' found.");
         }
 
-        SpriteRenderer sr = tilePrefab.GetComponent<SpriteRenderer>();
+        if (chunkPrefab == null)
+        {
+            Debug.LogError("Chunk Prefab is not assigned.");
+            return;
+        }
+
+        // Optional: auto-detect chunk size from prefab bounds
+        SpriteRenderer sr = chunkPrefab.GetComponent<SpriteRenderer>();
         if (sr != null)
-            tileSize = Mathf.RoundToInt(sr.bounds.size.x);
+            chunkSize = sr.bounds.size.x; // assumes square prefab
     }
 
     void Update()
     {
-        GenerateTilesInView();
-    }
+        if (player == null) return;
 
-    void GenerateTilesInView()
-    {
-        if (cam == null || player == null || tilePrefab == null)
-            return;
+        Vector2 playerPos = new Vector2(player.position.x, player.position.y);
+        Vector2Int currentChunk = new Vector2Int(
+            Mathf.FloorToInt(playerPos.x / chunkSize),
+            Mathf.FloorToInt(playerPos.y / chunkSize)
+        );
 
-        Vector3 camPos = cam.transform.position;
-        float camHeight = cam.orthographicSize;
-        float camWidth = camHeight;
-
-        int tilesX = Mathf.CeilToInt(camWidth / tileSize) + buffer * 2;
-        int tilesY = Mathf.CeilToInt(camHeight / tileSize) + buffer * 2;
-
-        int centerX = Mathf.RoundToInt(camPos.x / tileSize);
-        int centerY = Mathf.RoundToInt(camPos.y / tileSize);
-
-        HashSet<Vector2Int> tilesInView = new HashSet<Vector2Int>();
-
-        int startX = centerX - tilesX / 2;
-        int startY = centerY - tilesY / 2;
-
-        for (int x = 0; x <= tilesX; x++)
+        // Spawn chunks in range around the player
+        for (int x = -spawnRange; x <= spawnRange; x++)
         {
-            for (int y = 0; y <= tilesY; y++)
+            for (int y = -spawnRange; y <= spawnRange; y++)
             {
-                Vector2Int gridPos = new Vector2Int(startX + x, startY + y);
-                tilesInView.Add(gridPos);
+                Vector2Int chunkCoord = new Vector2Int(currentChunk.x + x, currentChunk.y + y);
 
-                if (!spawnedTiles.ContainsKey(gridPos))
+                if (!spawnedChunks.Contains(chunkCoord))
                 {
-                    Vector3 worldPos = new Vector3(gridPos.x * tileSize, gridPos.y * tileSize, 0);
-                    GameObject tile = Instantiate(tilePrefab, worldPos, Quaternion.identity, transform);
-                    spawnedTiles[gridPos] = tile;
+                    Vector3 worldPos = new Vector3(chunkCoord.x * chunkSize, chunkCoord.y * chunkSize, 0);
+                    Instantiate(chunkPrefab, worldPos, Quaternion.identity, transform);
+                    spawnedChunks.Add(chunkCoord);
                 }
             }
-        }
-
-        // Destroy offscreen tiles
-        List<Vector2Int> toRemove = new List<Vector2Int>();
-        foreach (var key in spawnedTiles.Keys)
-        {
-            if (!tilesInView.Contains(key))
-                toRemove.Add(key);
-        }
-
-        foreach (var key in toRemove)
-        {
-            Destroy(spawnedTiles[key]);
-            spawnedTiles.Remove(key);
         }
     }
 }

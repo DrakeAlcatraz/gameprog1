@@ -208,6 +208,11 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 8198877476969428147, guid: ae7f97850a20150468c5da8e650f8a63, type: 3}
   m_PrefabInstance: {fileID: 1039273922876583024}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &628021652 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8274755110733932264, guid: ae7f97850a20150468c5da8e650f8a63, type: 3}
+  m_PrefabInstance: {fileID: 1039273922876583024}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1893532041
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,9 +257,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44aa97b2b0ef98740a0dc04e285755b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilePrefab: {fileID: 7785844120321491547, guid: 482fa46ef4d4c034c97b8a5324bba3d4, type: 3}
-  player: {fileID: 0}
-  buffer: 1
+  chunkPrefab: {fileID: 7785844120321491547, guid: 482fa46ef4d4c034c97b8a5324bba3d4, type: 3}
+  player: {fileID: 628021652}
+  chunkSize: 0
+  spawnRange: 1
 --- !u!1001 &1039273922876583024
 PrefabInstance:
   m_ObjectHideFlags: 0
