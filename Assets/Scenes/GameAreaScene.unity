@@ -259,7 +259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chunkPrefab: {fileID: 7785844120321491547, guid: 482fa46ef4d4c034c97b8a5324bba3d4, type: 3}
   player: {fileID: 628021652}
-  chunkSize: 0
+  chunkSize: 10
   spawnRange: 1
 --- !u!1001 &1039273922876583024
 PrefabInstance:
