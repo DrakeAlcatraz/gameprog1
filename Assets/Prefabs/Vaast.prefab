@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1970604057752302298}
   - component: {fileID: 8198877476969428147}
   - component: {fileID: 8060704821672381776}
+  - component: {fileID: 1858611262942178104}
   m_Layer: 0
   m_Name: Vaast
   m_TagString: Player
@@ -176,8 +177,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 112ab5bc3c004024f871d8647933ddac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteRenderer: {fileID: 0}
-  animator: {fileID: 0}
+  stats: {fileID: 0}
+--- !u!114 &1858611262942178104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5451938244439008596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f896c22b14b7ee48843663ec177d084, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerStats: {fileID: 0}
+  Healthbar: {fileID: 0}
+  EXPbar: {fileID: 0}
 --- !u!1 &6820436330377473341
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,9 +393,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1955826422782961642, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2859654315068184812}
-    - targetCorrespondingSourceObject: {fileID: 1955826422782961642, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 4892040870864896735}
   m_SourcePrefab: {fileID: 100100000, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
 --- !u!4 &1368116624324073596 stripped
@@ -393,19 +405,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1955826422782961642, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
   m_PrefabInstance: {fileID: 508262398902619590}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2859654315068184812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029373222554331692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5d930339fe963e47859059bcc44bb3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  requiredLvl: 2
 --- !u!114 &4892040870864896735
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,21 +4,24 @@ using System.Collections.Generic;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
-{
-    [SerializeField]    private SpriteRenderer _spriteRenderer;
-    [SerializeField]    private Animator animator;
+public class Move : MonoBehaviour
 
-        private float speed; // Player movement speed
+{
+    public PlayerStats stats;
+   private SpriteRenderer _spriteRenderer;
+       private Animator animator;
+
          void Awake()
     {
-        speed = 5;
+        animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
     }
+
+
+
     void Update()
     {
       Movement();
-
     }
 
     void FixedUpdate()
@@ -37,14 +40,14 @@ public class PlayerController : MonoBehaviour
             offset = 0.125f; // Offset for right side of character
         }
             origin.x += offset;
-        RaycastHit2D raycast = Physics2D.Raycast(origin, dir, speed * Time.deltaTime);
+        RaycastHit2D raycast = Physics2D.Raycast(origin, dir, stats.speed * Time.deltaTime);
 
         if(raycast.collider != null && raycast.collider.gameObject.tag == "Collidable") { // If raycast hits something tagged "Collidable"
             float distance = Math.Abs(raycast.point.x - origin.x);
             return distance;
         }
 
-        return speed * Time.deltaTime;
+        return stats.speed * Time.deltaTime;
     }
 
     private float testVert(Vector2 dir) {
@@ -56,14 +59,14 @@ public class PlayerController : MonoBehaviour
             offset = -0.5f; // Offset for bottom side of character
         }
         origin.y += offset;
-        RaycastHit2D raycast = Physics2D.Raycast(origin, dir, speed * Time.deltaTime);
+        RaycastHit2D raycast = Physics2D.Raycast(origin, dir, stats.speed * Time.deltaTime);
 
         if (raycast.collider != null && raycast.collider.gameObject.tag == "Collidable") { // If raycast hits something tagged "Collidable"
             float distance = Math.Abs(raycast.point.y - origin.y);
             return distance;
         }
 
-        return speed * Time.deltaTime;
+        return stats.speed * Time.deltaTime;
     }
 private void SetFlip(){
          Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);

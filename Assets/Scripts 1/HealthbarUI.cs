@@ -14,7 +14,7 @@ public class HealthbarUI : MonoBehaviour
 
     public void SetHealthBarSize(int currentHealth)
     {
-        float newWidth = ((float)currentHealth / maxhealth) * width;
+        float newWidth = currentHealth / maxhealth * width;
         BarSize.sizeDelta = new Vector2(newWidth, height);
     }
 }
