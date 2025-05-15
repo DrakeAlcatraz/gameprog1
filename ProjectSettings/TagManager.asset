@@ -50,5 +50,8 @@ TagManager:
   - name: GameArea
     uniqueID: 755908959
     locked: 0
+  - name: UI
+    uniqueID: 3235374917
+    locked: 0
   m_RenderingLayers:
   - Default

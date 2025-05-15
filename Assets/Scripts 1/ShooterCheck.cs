@@ -1,24 +1,23 @@
+using NUnit.Framework;
 using UnityEngine;
 
-public class ShooterCheck : MonoBehaviour
+public class ShooterCheck : PlayerStats
 
 {
+    PlayerStats playerLevel= new PlayerStats();
+    [SerializeField] public int requiredLvl;
 
-    public virtual void Shooter(){
-        Debug.Log("Working1");        
+    public void ShooterLevelReq(){
+       if(playerLevel.level<requiredLvl){
+        gameObject.SetActive(false);
+       }else if(playerLevel.level >= requiredLvl){
+        gameObject.SetActive(true);
+       }
     }
+  
+   
 
 }
 
-public class ShooterCheckSub : ShooterCheck{
-    public override void Shooter()
-    {
-        Debug.Log("Wokring2");
-    }
 
-    void Update()
-    {
-        base.Shooter();
-        Shooter();
-    }
-}
+

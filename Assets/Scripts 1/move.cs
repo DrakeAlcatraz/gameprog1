@@ -17,21 +17,7 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-
-        if(Input.GetKey(KeyCode.W)) { // Controls movements in all four directions
-            transform.Translate(Vector2.up * testVert(Vector2.up));
-        }
-        if(Input.GetKey(KeyCode.A)) {
-            transform.Translate(Vector2.left * testHor(Vector2.left));
-        
-        }
-        if(Input.GetKey(KeyCode.S)) {
-            transform.Translate(Vector2.down * testVert(Vector2.down));
-        } 
-        if(Input.GetKey(KeyCode.D)) {
-            transform.Translate(Vector2.right * testHor(Vector2.right));
-            
-        }
+      Movement();
 
     }
 
@@ -87,6 +73,24 @@ private void SetFlip(){
         }else if(mousePos.x>transform.position.x){
          _spriteRenderer.flipX=false;
         }
+    }
+
+    void Movement(){
+         if(Input.GetKey(KeyCode.W)) { // Controls movements in all four directions
+            transform.Translate(Vector2.up * testVert(Vector2.up));
+        }
+        if(Input.GetKey(KeyCode.A)) {
+            transform.Translate(Vector2.left * testHor(Vector2.left));
+        
+        }
+        if(Input.GetKey(KeyCode.S)) {
+            transform.Translate(Vector2.down * testVert(Vector2.down));
+        } 
+        if(Input.GetKey(KeyCode.D)) {
+            transform.Translate(Vector2.right * testHor(Vector2.right));
+            
+        }
+
     }
     
 }

@@ -38,6 +38,7 @@ Transform:
   - {fileID: 1368116624324073596}
   - {fileID: 8784409341556451670}
   - {fileID: 2684773663826808668}
+  - {fileID: 6147030541348332562}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &29419573145197678
@@ -246,7 +247,7 @@ Camera:
   far clip plane: 200
   field of view: 34
   orthographic: 1
-  orthographic size: 11
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -324,11 +325,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.328
+      value: -0.717
       objectReference: {fileID: 0}
     - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.003
+      value: 0.853
       objectReference: {fileID: 0}
     - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -404,6 +405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d930339fe963e47859059bcc44bb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  requiredLvl: 2
 --- !u!114 &4892040870864896735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -419,10 +421,10 @@ MonoBehaviour:
   ShooterToCheck: {fileID: 0}
   Projectile: {fileID: 1079625304758152629, guid: c191fc1f9b4a46c4c982956106911675, type: 3}
   speed: 40
-  nextfire: 1
+  nextfire: 1.2
   origin: {fileID: 2029373222554331692}
   instantiatedProjectile: {fileID: 0}
-  customFireRate: 2
+  customFireRate: 1
 --- !u!1001 &3509157654777518822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -433,11 +435,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.053
+      value: 0.011
       objectReference: {fileID: 0}
     - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.494
+      value: 1.23
       objectReference: {fileID: 0}
     - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -513,10 +515,99 @@ MonoBehaviour:
   ShooterToCheck: {fileID: 0}
   Projectile: {fileID: 1079625304758152629, guid: c191fc1f9b4a46c4c982956106911675, type: 3}
   speed: 40
-  nextfire: 1
+  nextfire: 1.6
   origin: {fileID: 3141108524664651020}
   instantiatedProjectile: {fileID: 0}
-  customFireRate: 4
+  customFireRate: 1
+--- !u!1001 &4665606699072663976
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8274755110733932264}
+    m_Modifications:
+    - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.734
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.823
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1955826422782961642, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+      propertyPath: m_Name
+      value: ShooterUpgrade4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1955826422782961642, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 578424103686025838}
+  m_SourcePrefab: {fileID: 100100000, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+--- !u!4 &6147030541348332562 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+  m_PrefabInstance: {fileID: 4665606699072663976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6601130633062618690 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1955826422782961642, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+  m_PrefabInstance: {fileID: 4665606699072663976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &578424103686025838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601130633062618690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56450a4a2655ad9499bd623a4a683d00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShooterToCheck: {fileID: 0}
+  Projectile: {fileID: 1079625304758152629, guid: c191fc1f9b4a46c4c982956106911675, type: 3}
+  speed: 40
+  nextfire: 1.8
+  origin: {fileID: 0}
+  instantiatedProjectile: {fileID: 0}
+  customFireRate: 1
 --- !u!1001 &7789343781781486828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -527,11 +618,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.041
+      value: 0.415
       objectReference: {fileID: 0}
     - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.138
+      value: 1.142
       objectReference: {fileID: 0}
     - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -602,10 +693,10 @@ MonoBehaviour:
   ShooterToCheck: {fileID: 0}
   Projectile: {fileID: 1079625304758152629, guid: c191fc1f9b4a46c4c982956106911675, type: 3}
   speed: 40
-  nextfire: 1
+  nextfire: 1.4
   origin: {fileID: 8592079888405928710}
   instantiatedProjectile: {fileID: 0}
-  customFireRate: 3
+  customFireRate: 1
 --- !u!4 &8784409341556451670 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
@@ -621,11 +712,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.401
+      value: -0.416
       objectReference: {fileID: 0}
     - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.009
+      value: 1.148
       objectReference: {fileID: 0}
     - target: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
       propertyPath: m_LocalPosition.z
