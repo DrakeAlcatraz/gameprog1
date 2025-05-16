@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 0
   Speed: 0
-  ExpYield: 0
+  ExpYield: 30

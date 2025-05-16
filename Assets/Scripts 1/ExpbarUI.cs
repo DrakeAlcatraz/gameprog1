@@ -5,7 +5,7 @@ public class ExpbarUI: MonoBehaviour
     public float width, height;
     private int xptonextLVL;
 
-    void Start()
+    void Awake()
     {
         width = GetComponent<RectTransform>().rect.width;
         height= GetComponent<RectTransform>().rect.height;
@@ -15,11 +15,15 @@ public class ExpbarUI: MonoBehaviour
 
     public void SetXPtonextLVl(int XPtonextLVL)
     {
+   
+        Debug.Log("setting EXP");
         xptonextLVL = XPtonextLVL;
     }
 
     public void SetXPBarSize(int xp)
     {
+     
+        Debug.Log("Setting Bar size");
         float ratio = (float)xp / xptonextLVL;
           ratio = Mathf.Clamp01(ratio);
 

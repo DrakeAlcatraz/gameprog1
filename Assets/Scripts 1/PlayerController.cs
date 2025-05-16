@@ -1,8 +1,10 @@
 using Unity.VisualScripting;
 using UnityEditor.SceneManagement;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.UIElements;
 
-public class Player : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public PlayerStats PlayerStats;
     [SerializeField] private HealthbarUI Healthbar;
@@ -15,7 +17,6 @@ public class Player : MonoBehaviour
 
      void Start()
     {
-        
         intitializeUIandStats();
     }
 
@@ -30,7 +31,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.X))
         {
-            GainXP(10); // Press X to gain XP (for testing)
+            GainXP(30); // Press X to gain XP (for testing)
         }
     }
 
@@ -54,25 +55,38 @@ public class Player : MonoBehaviour
     public void GainXP(int amount)
     {
         PlayerStats.xp += amount;
-        EXPbar.SetXPtonextLVl(PlayerStats.xpToNextLevel);
+        int overflow = PlayerStats.xp-PlayerStats.xpToNextLevel;
+         EXPbar.SetXPtonextLVl(PlayerStats.xpToNextLevel);
         EXPbar.SetXPBarSize(PlayerStats.xp);
         Debug.Log("Gained XP: " + amount + " | Total XP: " + PlayerStats.xp);
 
         if (PlayerStats.xp >= PlayerStats.xpToNextLevel)
         {
-            LevelUp();
+            
+            LevelUp(overflow);
            
         }
     }
 
-    public void LevelUp()
+    public void LevelUp(int xpOverflow)
     {
-        PlayerStats.level++;
-        PlayerStats.xp = 0;
-        PlayerStats.xpToNextLevel += 50 * PlayerStats.level / 2; // Increase XP needed next time
+        if (xpOverflow <= 0)
+        {
+            PlayerStats.xp = 0;
+        }
+        else
+        {
+            PlayerStats.xp = xpOverflow;
+        }
+  
+           PlayerStats.level++;
+        
+          PlayerStats.xpToNextLevel += 50 * PlayerStats.level / 2; // Increase XP needed next time
+    
+      
         PlayerStats.attack += 5;
         PlayerStats.Maxhealth += 20;
-        PlayerStats.speed += 5;
+        PlayerStats.speed += 1;
 
         EXPbar.SetXPtonextLVl(PlayerStats.xpToNextLevel);
         EXPbar.SetXPBarSize(PlayerStats.xp);
@@ -84,7 +98,7 @@ public class Player : MonoBehaviour
 
     void intitializeUIandStats()
     {
-         EXPbar.SetXPtonextLVl(PlayerStats.xpToNextLevel);
+        EXPbar.SetXPtonextLVl(PlayerStats.xpToNextLevel);
         EXPbar.SetXPBarSize(PlayerStats.xp);
         PlayerStats.ResetStats();
         player = GameObject.FindGameObjectWithTag("Player");
