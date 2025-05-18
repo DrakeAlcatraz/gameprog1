@@ -4,15 +4,17 @@ public class ExpbarUI: MonoBehaviour
 {
     public float width, height;
     private int xptonextLVL;
+     [SerializeField] private RectTransform BarSize;
+
 
     void Awake()
     {
+        BarSize = GetComponent<RectTransform>();
         width = GetComponent<RectTransform>().rect.width;
         height= GetComponent<RectTransform>().rect.height;
     }
 
-    [SerializeField] private RectTransform BarSize;
-
+   
     public void SetXPtonextLVl(int XPtonextLVL)
     {
    

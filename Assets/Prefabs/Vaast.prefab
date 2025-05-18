@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8198877476969428147}
   - component: {fileID: 8060704821672381776}
   - component: {fileID: 1858611262942178104}
+  - component: {fileID: 1785806427036747522}
   m_Layer: 0
   m_Name: Vaast
   m_TagString: Player
@@ -193,6 +194,20 @@ MonoBehaviour:
   PlayerStats: {fileID: 0}
   Healthbar: {fileID: 0}
   EXPbar: {fileID: 0}
+  UltBar: {fileID: 0}
+--- !u!114 &1785806427036747522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5451938244439008596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 850abaea09f704c7ebcf2f95e8365194, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Islevel: {fileID: 11400000, guid: a33d2c9d3c8f377478e39ba36fabff01, type: 2}
 --- !u!1 &6820436330377473341
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,7 +585,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShooterUpgrade4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2473332327312502089, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -604,7 +620,7 @@ MonoBehaviour:
   Projectile: {fileID: 1079625304758152629, guid: c191fc1f9b4a46c4c982956106911675, type: 3}
   speed: 40
   nextfire: 1.8
-  origin: {fileID: 0}
+  origin: {fileID: 6601130633062618690}
   instantiatedProjectile: {fileID: 0}
   customFireRate: 1
 --- !u!1001 &7789343781781486828
