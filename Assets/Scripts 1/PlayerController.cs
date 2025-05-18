@@ -12,8 +12,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private ExpbarUI EXPbar;
     [SerializeField] private UltBar UltBar;
     GameObject player;
+  bool isActiveAndEnabled;
 
-
+private bool isUltActive = false;
+private float ultTimer = 0f;
 
 
 
@@ -24,6 +26,17 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (isUltActive)
+          {
+              ultTimer -= Time.deltaTime;
+                if (ultTimer <= 0)
+                   {
+                       isUltActive = false;
+                       gameObject.GetComponent<CheckAllShooters>().ShooterOverdrive(false);
+                       Debug.Log("Ult ended");
+                 }
+}
+
         float UltperSecgain = PlayerStats.passiveUltGain();
         PlayerStats.UltCharge += UltperSecgain * Time.deltaTime;
         UltBar.SetUltCharge(PlayerStats.UltChargeMax);
@@ -43,16 +56,16 @@ public class PlayerController : MonoBehaviour
         {
             ChargeUlt(PlayerStats.UltChargeMax);
         }
+     if (Input.GetKeyDown(KeyCode.Space) && PlayerStats.UltCharge >= PlayerStats.UltChargeMax)
+           {
+             Debug.Log("Ult activated");
+            isUltActive = true;
+            ultTimer = PlayerStats.UltDuration; 
+             PlayerStats.UltCharge = 0;
+             UltBar.SetUltBarsize(PlayerStats.UltCharge);
+            gameObject.GetComponent<CheckAllShooters>().ShooterOverdrive(true);
+}
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log("Ult pressed");
-
-            if (VaastUlt())
-            {
-                gameObject.GetComponent<CheckAllShooters>().ShooterOverdrive();
-            }
-        }
     }
 
     public void TakeDamage(int damage)
@@ -61,7 +74,7 @@ public class PlayerController : MonoBehaviour
 
         if (PlayerStats.currentHealth < 0) PlayerStats.currentHealth = 0;
 
-        Healthbar.SetHealthBarSize(PlayerStats.currentHealth); // Update health bar here
+        Healthbar.SetHealthBarSize(PlayerStats.currentHealth); 
 
         Debug.Log("Player Health: " + PlayerStats.currentHealth);
         if (PlayerStats.currentHealth <= 0)
@@ -72,10 +85,10 @@ public class PlayerController : MonoBehaviour
 
 
     // LEVEL SYSTEM STARTS HERE
-    public void GainXP(int amount)
+    public void GainXP(float amount)
     {
         PlayerStats.xp += amount;
-        int overflow = PlayerStats.xp - PlayerStats.xpToNextLevel;
+        float overflow = PlayerStats.xp - PlayerStats.xpToNextLevel;
         EXPbar.SetXPtonextLVl(PlayerStats.xpToNextLevel);
         EXPbar.SetXPBarSize(PlayerStats.xp);
         Debug.Log("Gained XP: " + amount + " | Total XP: " + PlayerStats.xp);
@@ -88,7 +101,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void LevelUp(int xpOverflow)
+    public void LevelUp(float xpOverflow)
     {
         if (xpOverflow <= 0)
         {
@@ -101,8 +114,7 @@ public class PlayerController : MonoBehaviour
 
         PlayerStats.level++;
 
-        PlayerStats.xpToNextLevel += 50 * PlayerStats.level / 2; // Increase XP needed next time
-
+        PlayerStats.xpToNextLevel += 50 * PlayerStats.level / 2;
 
         PlayerStats.attack += 5;
         PlayerStats.Maxhealth += 20;
@@ -153,14 +165,13 @@ public class PlayerController : MonoBehaviour
 
     public bool VaastUlt()
     {
-        bool isActiveAndEnabled;
-        
-        if (ChargeUlt(0) == true && Input.GetKeyDown(KeyCode.Space))
+      
+        if (ChargeUlt(0) == true)
         {
             Debug.Log("Ult Used");
             isActiveAndEnabled = true;
         }
-        else
+        else if (PlayerStats.UltDuration <=0)
         {
             Debug.Log("Not yet");
             isActiveAndEnabled = false;

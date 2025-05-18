@@ -5,6 +5,7 @@ public class SpawnScript : MonoBehaviour
 
 {
     public GameObject InstantiatedEnemy;
+    public EnemyStats reset;
     float spawnTimer = 1.0f;
     public float SpawnRate;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,6 +24,5 @@ public class SpawnScript : MonoBehaviour
 
     void SpawnEnemy() {
         Instantiate(InstantiatedEnemy, transform.position, transform.rotation);
-
     }
 }

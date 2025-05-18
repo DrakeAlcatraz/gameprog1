@@ -3,7 +3,7 @@ using UnityEngine;
 public class ExpbarUI: MonoBehaviour
 {
     public float width, height;
-    private int xptonextLVL;
+    private float xptonextLVL;
      [SerializeField] private RectTransform BarSize;
 
 
@@ -15,14 +15,14 @@ public class ExpbarUI: MonoBehaviour
     }
 
    
-    public void SetXPtonextLVl(int XPtonextLVL)
+    public void SetXPtonextLVl(float XPtonextLVL)
     {
    
         Debug.Log("setting EXP");
         xptonextLVL = XPtonextLVL;
     }
 
-    public void SetXPBarSize(int xp)
+    public void SetXPBarSize(float xp)
     {
      
         Debug.Log("Setting Bar size");

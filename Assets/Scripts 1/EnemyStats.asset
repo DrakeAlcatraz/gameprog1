@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f85365e470a65d84b962fd608ca0f258, type: 3}
   m_Name: EnemyStats
   m_EditorClassIdentifier: 
-  Health: 0
+  Health: -12
   Speed: 0
   ExpYield: 30
+  UltChargeYield: 100

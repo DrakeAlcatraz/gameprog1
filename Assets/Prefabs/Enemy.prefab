@@ -287,5 +287,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 375a0070fdcd8f049af4df8e2ddeea80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Expyield: {fileID: 11400000, guid: af7e1c21089e41548ade164d53da09fd, type: 2}
-  playerStats: {fileID: 11400000, guid: a33d2c9d3c8f377478e39ba36fabff01, type: 2}
+  stats: {fileID: 11400000, guid: af7e1c21089e41548ade164d53da09fd, type: 2}

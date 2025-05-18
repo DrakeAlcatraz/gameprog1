@@ -3,19 +3,36 @@ using UnityEngine;
 
 public class EnemyHItLogic : MonoBehaviour
 {
-  public EnemyStats Expyield;
+  public EnemyStats stats;
 
- 
- 
 
-    void OnCollisionEnter2D(Collision2D collision){
-          if(collision.gameObject.tag=="PlayerAttack")
-          {
-        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().GainXP(Expyield.ExpYield);
-      GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().ChargeUlt(Expyield.UltChargeYield);
-          Destroy(gameObject);
-        }
+    void Start()
+    {
+    stats.Reset();
+    }
+
+
+    public void TakeDamage(float damage)
+  {
+    stats.Health -= damage;
+    Debug.Log("Enemy took damage! Remaining HP: " + stats.Health);
+
+    if (stats.Health <= 0)
+    {
+      Die();
+    }
+  }
+
+  public void Die()
+  {
+    GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().GainXP(stats.ExpYield);
+    GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().ChargeUlt(stats.UltChargeYield);
+    Destroy(gameObject);
+  }
+    
+    
      }
             
-    }
+            
+    
 

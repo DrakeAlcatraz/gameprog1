@@ -1,3 +1,4 @@
+using System;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ public class CheckAllShooters : MonoBehaviour
     Transform upgrade3;
     Transform upgrade4;
     Transform baseShooter;
+    bool OverdriveIsActive = false;
 
     [SerializeField] PlayerStats Islevel;
 
@@ -46,21 +48,38 @@ public class CheckAllShooters : MonoBehaviour
         upgrade1.gameObject.SetActive(Islevel.level >= 2);
         upgrade2.gameObject.SetActive(Islevel.level >= 5);
         upgrade3.gameObject.SetActive(Islevel.level >= 8);
-        upgrade3.gameObject.SetActive(Islevel.level >= 11);
+        upgrade4.gameObject.SetActive(Islevel.level >= 11);
     }
 
-   public void ShooterOverdrive()
+   public void ShooterOverdrive(bool enable)
+{
+    if (enable)
     {
-        if (gameObject.GetComponent<PlayerController>().VaastUlt() == true)
+        if (!OverdriveIsActive)
         {
-            baseShooter.gameObject.GetComponent<Playershoot>().FireRate = 3;
-            upgrade1.gameObject.GetComponent<ShooterTiming>().customFireRate = 3;
-            upgrade2.gameObject.GetComponent<ShooterTiming>().customFireRate = 3;
-            upgrade3.gameObject.GetComponent<ShooterTiming>().customFireRate = 3;
-                upgrade4.gameObject.GetComponent<ShooterTiming>().customFireRate=3;
+            OverdriveIsActive = true;
+            Debug.Log("Shooter Overdrive Activated");
+            baseShooter.gameObject.GetComponent<Playershoot>().nextfire = 0.05f;
+            upgrade1.gameObject.GetComponent<ShooterTiming>().customFireDelay = 0.05f;
+            upgrade2.gameObject.GetComponent<ShooterTiming>().customFireDelay = 0.05f;
+            upgrade3.gameObject.GetComponent<ShooterTiming>().customFireDelay = 0.05f;
+            upgrade4.gameObject.GetComponent<ShooterTiming>().customFireDelay = 0.05f;
         }
     }
-    
-        
+    else
+    {
+        if (OverdriveIsActive)
+        {
+            OverdriveIsActive = false;
+            Debug.Log("Shooter Overdrive Ended");
+            baseShooter.gameObject.GetComponent<Playershoot>().nextfire = baseShooter.gameObject.GetComponent<Playershoot>().defaultFireDelay;
+            upgrade1.gameObject.GetComponent<ShooterTiming>().customFireDelay = upgrade1.gameObject.GetComponent<ShooterTiming>().customDefault;
+            upgrade2.gameObject.GetComponent<ShooterTiming>().customFireDelay = upgrade2.gameObject.GetComponent<ShooterTiming>().customDefault;
+            upgrade3.gameObject.GetComponent<ShooterTiming>().customFireDelay = upgrade3.gameObject.GetComponent<ShooterTiming>().customDefault;
+            upgrade4.gameObject.GetComponent<ShooterTiming>().customFireDelay = upgrade4.gameObject.GetComponent<ShooterTiming>().customDefault;
+        }
+    }
+}
+
    
 }
