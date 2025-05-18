@@ -7,6 +7,7 @@ public class CheckAllShooters : MonoBehaviour
     Transform upgrade2;
     Transform upgrade3;
     Transform upgrade4;
+    Transform baseShooter;
 
     [SerializeField] PlayerStats Islevel;
 
@@ -25,6 +26,7 @@ public class CheckAllShooters : MonoBehaviour
 
     void FindAllShooters()
     {
+        baseShooter = transform.Find("Shooter");
         upgrade1 = transform.Find("ShooterUpgrade1");
         upgrade2 = transform.Find("ShooterUpgrade2");
         upgrade3 = transform.Find("ShooterUpgrade3");
@@ -44,7 +46,19 @@ public class CheckAllShooters : MonoBehaviour
         upgrade1.gameObject.SetActive(Islevel.level >= 2);
         upgrade2.gameObject.SetActive(Islevel.level >= 5);
         upgrade3.gameObject.SetActive(Islevel.level >= 8);
-        upgrade3.gameObject.SetActive(Islevel.level >=  11);
+        upgrade3.gameObject.SetActive(Islevel.level >= 11);
+    }
+
+   public void ShooterOverdrive()
+    {
+        if (gameObject.GetComponent<PlayerController>().VaastUlt() == true)
+        {
+            baseShooter.gameObject.GetComponent<Playershoot>().FireRate = 3;
+            upgrade1.gameObject.GetComponent<ShooterTiming>().customFireRate = 3;
+            upgrade2.gameObject.GetComponent<ShooterTiming>().customFireRate = 3;
+            upgrade3.gameObject.GetComponent<ShooterTiming>().customFireRate = 3;
+                upgrade4.gameObject.GetComponent<ShooterTiming>().customFireRate=3;
+        }
     }
     
         

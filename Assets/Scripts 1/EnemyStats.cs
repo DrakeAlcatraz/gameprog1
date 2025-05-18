@@ -6,4 +6,6 @@ public class EnemyStats : ScriptableObject
     public int Health;
     public int Speed;
     public int ExpYield;
+
+    public float UltChargeYield = 100;
 }
