@@ -12,6 +12,7 @@ public class EnemyHItLogic : MonoBehaviour
           if(collision.gameObject.tag=="PlayerAttack")
           {
         GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().GainXP(Expyield.ExpYield);
+      GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().ChargeUlt(Expyield.UltChargeYield);
           Destroy(gameObject);
         }
      }

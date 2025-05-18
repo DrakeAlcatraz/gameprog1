@@ -2,7 +2,7 @@ using Unity.Mathematics;
 
 using UnityEngine;
 
-public class ShooterTiming : PLayershoot
+public class ShooterTiming : Playershoot
 {
     public float customFireRate = 1.5f;
 

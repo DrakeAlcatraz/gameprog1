@@ -3,13 +3,15 @@ using Unity.Mathematics;
 
 using UnityEngine;
 
-public class PLayershoot : MonoBehaviour
+public class Playershoot : MonoBehaviour
 
 {
     public GameObject  ShooterToCheck;
     public Rigidbody2D Projectile;
    public int speed = 40;
     public float nextfire = 1f;
+
+    public float FireRate = 1;
     public GameObject origin;
     public Rigidbody2D  instantiatedProjectile;
     
@@ -42,7 +44,7 @@ public class PLayershoot : MonoBehaviour
          instantiatedProjectile = Instantiate(Projectile, origin.transform.position , quaternion.identity );
          instantiatedProjectile.transform.rotation = Quaternion.Euler(0f, 0f, angle);
          instantiatedProjectile.linearVelocity= direction*speed;
-         nextfire=2;
+         nextfire= FireRate;
         }else
 
         {
