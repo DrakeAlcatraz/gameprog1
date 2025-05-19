@@ -418,11 +418,14 @@ MonoBehaviour:
   ShooterToCheck: {fileID: 0}
   Projectile: {fileID: 1079625304758152629, guid: c191fc1f9b4a46c4c982956106911675, type: 3}
   speed: 40
+  cooldown: 0
   nextfire: 1
+  defaultFireDelay: 0
   FireRate: 1
   origin: {fileID: 2029373222554331692}
   instantiatedProjectile: {fileID: 0}
   customFireDelay: 1.2
+  customDefault: 0
 --- !u!1001 &3509157654777518822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -513,11 +516,14 @@ MonoBehaviour:
   ShooterToCheck: {fileID: 0}
   Projectile: {fileID: 1079625304758152629, guid: c191fc1f9b4a46c4c982956106911675, type: 3}
   speed: 40
+  cooldown: 0
   nextfire: 1
+  defaultFireDelay: 0
   FireRate: 1
   origin: {fileID: 3141108524664651020}
   instantiatedProjectile: {fileID: 0}
   customFireDelay: 1.6
+  customDefault: 0
 --- !u!1001 &4665606699072663976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -604,11 +610,14 @@ MonoBehaviour:
   ShooterToCheck: {fileID: 0}
   Projectile: {fileID: 1079625304758152629, guid: c191fc1f9b4a46c4c982956106911675, type: 3}
   speed: 40
+  cooldown: 0
   nextfire: 1
+  defaultFireDelay: 0
   FireRate: 1
   origin: {fileID: 6601130633062618690}
   instantiatedProjectile: {fileID: 0}
   customFireDelay: 1.8
+  customDefault: 0
 --- !u!1001 &7789343781781486828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -694,11 +703,14 @@ MonoBehaviour:
   ShooterToCheck: {fileID: 0}
   Projectile: {fileID: 1079625304758152629, guid: c191fc1f9b4a46c4c982956106911675, type: 3}
   speed: 40
+  cooldown: 0
   nextfire: 1
+  defaultFireDelay: 0
   FireRate: 1
   origin: {fileID: 8592079888405928710}
   instantiatedProjectile: {fileID: 0}
   customFireDelay: 1.4
+  customDefault: 0
 --- !u!4 &8784409341556451670 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1581101187978220986, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
