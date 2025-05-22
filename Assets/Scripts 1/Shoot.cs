@@ -3,35 +3,33 @@ using Unity.Mathematics;
 
 using UnityEngine;
 
-public class Playershoot : MonoBehaviour
+public class Playershoot : Weapons
 
 {
-    public GameObject  ShooterToCheck;
+  public static Playershoot Instance;
     public Rigidbody2D Projectile;
    public int speed = 40;
-    public float cooldown;
-    public float nextfire = 1f;
-
-    public float defaultFireDelay;
-      
-    public float FireRate = 1;
+  
     public GameObject origin;
     public Rigidbody2D  instantiatedProjectile;
 
-    
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+  public float cooldown = 1;
+    public float defaultFireDelay;
+
+    void Awake() { Instance = this; }
+
     void Start()
     {
-       
-        defaultFireDelay = nextfire;
-        origin = gameObject;
+   
+      defaultFireDelay = ShooterStats[shooterLevel].nextfire;
+      origin = gameObject;
+      
     }
 
     // Update is called once per frame
     void Update()
     {
-        cooldown -= Time.deltaTime;
+       cooldown -= Time.deltaTime;
         if(cooldown<=0){ ShootLogic();}
        
     }
@@ -54,7 +52,7 @@ public class Playershoot : MonoBehaviour
                 instantiatedProjectile.transform.rotation = Quaternion.Euler(0f, 0f, angle);
                 instantiatedProjectile.transform.Translate(0.5f, -0.5f, 0);
                 instantiatedProjectile.linearVelocity = direction * speed;
-        cooldown = nextfire;
+       cooldown = ShooterStats[shooterLevel].nextfire;
         
     }
 

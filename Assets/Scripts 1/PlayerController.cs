@@ -16,12 +16,14 @@ public class PlayerController : MonoBehaviour
 
     public PanelController panelController;
     GameObject player;
-     bool isActiveAndEnabled;
+     bool isUlting;
 
 private bool isUltActive = false;
-private float ultTimer = 0f;
+    private float ultTimer = 0f;
+     [SerializeField] Weapons weapons;
+       [SerializeField] Weapons Shooter;
 
-
+    [SerializeField] Weapons Ultimate;
 
 
     void OnEnable()
@@ -32,6 +34,9 @@ private float ultTimer = 0f;
     
     void Start()
     {
+        Ultimate.ultimateLvl = 0;
+        Shooter.shooterLevel = 0;
+        weapons.weaponLevel = 0;
         gameObject.SetActive(true);
         intitializeUIandStats();
     }
@@ -72,7 +77,7 @@ private float ultTimer = 0f;
            {
              Debug.Log("Ult activated");
             isUltActive = true;
-            ultTimer = PlayerStats.UltDuration; 
+            ultTimer = PlayerStats.UltDuration+Ultimate.overdriveStats[Ultimate.ultimateLvl].additionalUltDuration; 
              PlayerStats.UltCharge = 0;
              UltBar.SetUltBarsize(PlayerStats.UltCharge);
             gameObject.GetComponent<CheckAllShooters>().ShooterOverdrive(true);
@@ -138,30 +143,39 @@ private float ultTimer = 0f;
         {
             PlayerStats.xp = xpOverflow;
         }
-
         PlayerStats.level++;
-
-        PlayerStats.xpToNextLevel += 50 * PlayerStats.level / 2;
-
+        PlayerStats.xpToNextLevel += 30 * PlayerStats.level / 2;
         PlayerStats.attack += 5;
         PlayerStats.Maxhealth += 20;
         PlayerStats.speed += 1;
 
         EXPbar.SetXPtonextLVl(PlayerStats.xpToNextLevel);
         EXPbar.SetXPBarSize(PlayerStats.xp);
-        Debug.Log("LEVEL UP! Now Level " + PlayerStats.level);
-        Debug.Log("New Attack Power: " + PlayerStats.attack + ", New Health: " + PlayerStats.Maxhealth);
+         panelController.levelUpButtons[0].ActivateButton(weapons);
+        panelController.levelUpButtons2[0].ActivateButton(Shooter);
+        
 
+         if (PlayerStats.level % 5 == 0 && Ultimate.ultimateLvl < Ultimate.overdriveStats.Count - 1)
+        {
+            panelController.levelUpbutton3rd[0].gameObject.SetActive(true);
+            panelController.levelUpbutton3rd[0].ActivateButton(Ultimate);
+        }
+        else
+        {
+            panelController.levelUpbutton3rd[0].gameObject.SetActive(false);
+        }
+        panelController.OpenLevelUpPanel();
+       
 
     }
 
     void intitializeUIandStats()
     {
+           PlayerStats.ResetStats();
         UltBar.SetUltCharge(PlayerStats.UltChargeMax);
         UltBar.SetUltBarsize(PlayerStats.UltCharge);
         EXPbar.SetXPtonextLVl(PlayerStats.xpToNextLevel);
         EXPbar.SetXPBarSize(PlayerStats.xp);
-        PlayerStats.ResetStats();
         player = GameObject.FindGameObjectWithTag("Player");
         PlayerStats.currentHealth = PlayerStats.Maxhealth;
         Healthbar.SetMaxHealth(PlayerStats.Maxhealth);
@@ -196,14 +210,14 @@ private float ultTimer = 0f;
         if (ChargeUlt(0) == true)
         {
             Debug.Log("Ult Used");
-            isActiveAndEnabled = true;
+            isUlting = true;
         }
         else if (PlayerStats.UltDuration <=0)
         {
             Debug.Log("Not yet");
-            isActiveAndEnabled = false;
+            isUlting = false;
         }
-        return isActiveAndEnabled;
+        return isUlting;
         
     }
 

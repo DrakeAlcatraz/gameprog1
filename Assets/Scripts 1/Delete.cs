@@ -2,22 +2,25 @@ using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
-
-public class DaggerLogic : Weapon
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
+public class DaggerLogic : Weapons
 {
     [SerializeField] private PlayerStats AtkBonus;
    
 
-   
+    
      public float AdjustedAtk;
     public Animator animator;
     private HashSet<GameObject> enemiesHit = new HashSet<GameObject>();
 
+
+    void Awake()
+    {
+        weaponLevel = 0;
+    }
     void Start()
     {
-        Debug.Log(AdjustedAtk);
-        AdjustedAtk = stats[0].baseAttack + (AtkBonus.attack / 2);
-        Debug.Log(AdjustedAtk);
+        AdjustedAtk = stats[weaponLevel].baseAttack + (AtkBonus.attack / 2);
     }
 
     void OnBecameInvisible()
@@ -42,9 +45,9 @@ public class DaggerLogic : Weapon
                 Debug.Log($"Dagger hit for {AdjustedAtk} damage");
             }
 
-            stats[1].pierceCount--;
+         stats[1].pierceCount--;
 
-            if (  stats[1].pierceCount-- <= 0)
+            if ( stats[weaponLevel].pierceCount--<=0)
             {
 
                 StartCoroutine(destroyProjectile());

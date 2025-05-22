@@ -176,10 +176,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc1b60424fe697f40b2588260b0662d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseAttack: 2
-  pierceCount: 2
+  weaponLevel: 5
+  shooterLevel: 0
+  stats:
+  - baseAttack: 2
+    pierceCount: 2
+    weaponDescription: Increase Base attack by 2
+  - baseAttack: 4
+    pierceCount: 2
+    weaponDescription: ' Base attack + 2'
+  - baseAttack: 6
+    pierceCount: 3
+    weaponDescription: ' Base attack + 2, Pierce+1'
+  - baseAttack: 8
+    pierceCount: 3
+    weaponDescription: ' Base attack + 2'
+  - baseAttack: 10
+    pierceCount: 4
+    weaponDescription: ' Base attack + 2, Pierce+1'
+  - baseAttack: 12
+    pierceCount: 4
+    weaponDescription: ' Base attack + 2'
+  - baseAttack: 24
+    pierceCount: 999
+    weaponDescription: Base attack x2, Infintely pierce enemies
+  ShooterStats: []
   AtkBonus: {fileID: 11400000, guid: a33d2c9d3c8f377478e39ba36fabff01, type: 2}
-  SkillLevel: 0
+  AdjustedAtk: 0
   animator: {fileID: -7734746757467794530}
 --- !u!95 &-7734746757467794530
 Animator:

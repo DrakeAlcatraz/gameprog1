@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: e3bea596b57320245ae77ec543338c3b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9151789683634449147
+    second: VAAST IDLE ANIMATION_0
+  - first:
+      213: -5009336013134682420
+    second: VAAST IDLE ANIMATION_1
+  - first:
+      213: -6709666637973304756
+    second: VAAST IDLE ANIMATION_2
+  - first:
+      213: -6465015577271201323
+    second: VAAST IDLE ANIMATION_3
+  - first:
+      213: -88450632856858485
+    second: VAAST IDLE ANIMATION_4
+  - first:
+      213: -3975981701290124580
+    second: VAAST IDLE ANIMATION_5
+  - first:
+      213: -302201174653316097
+    second: VAAST IDLE ANIMATION_6
+  - first:
+      213: -5990597432432961060
+    second: VAAST IDLE ANIMATION_7
+  - first:
+      213: -4695518344984577784
+    second: VAAST IDLE ANIMATION_8
+  - first:
+      213: -5793073778470432322
+    second: VAAST IDLE ANIMATION_9
+  - first:
+      213: -4457800883314009446
+    second: VAAST IDLE ANIMATION_10
+  - first:
+      213: -6865483765543147387
+    second: VAAST IDLE ANIMATION_11
+  - first:
+      213: 992818426321337361
+    second: VAAST IDLE ANIMATION_12
+  - first:
+      213: -6023212524474939682
+    second: VAAST IDLE ANIMATION_13
+  - first:
+      213: 2013651539784450465
+    second: VAAST IDLE ANIMATION_14
+  - first:
+      213: -7836696722233795265
+    second: VAAST IDLE ANIMATION_15
+  - first:
+      213: -8762384211149102151
+    second: VAAST IDLE ANIMATION_16
+  - first:
+      213: -5453117552585016383
+    second: VAAST IDLE ANIMATION_17
+  - first:
+      213: -7269956791029508019
+    second: VAAST IDLE ANIMATION_18
+  - first:
+      213: 5593638330883658137
+    second: VAAST IDLE ANIMATION_19
+  - first:
+      213: -4621822410209179133
+    second: VAAST IDLE ANIMATION_20
+  - first:
+      213: -6868368664327946957
+    second: VAAST IDLE ANIMATION_21
+  - first:
+      213: 7600701955337323936
+    second: VAAST IDLE ANIMATION_22
+  - first:
+      213: -3674861924154048356
+    second: VAAST IDLE ANIMATION_23
+  - first:
+      213: 2139689676120174682
+    second: VAAST IDLE ANIMATION_24
+  - first:
+      213: 5633096180268585666
+    second: VAAST IDLE ANIMATION_25
+  - first:
+      213: 1722106290169366890
+    second: VAAST IDLE ANIMATION_26
+  - first:
+      213: 4012648034044378395
+    second: VAAST IDLE ANIMATION_27
+  - first:
+      213: 3241415016879675448
+    second: VAAST IDLE ANIMATION_28
+  - first:
+      213: 8528028736335406466
+    second: VAAST IDLE ANIMATION_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VAAST IDLE ANIMATION_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 74
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41063beef1fd8314d8777a29c77d6312
+      internalID: 492630614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAAST IDLE ANIMATION_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 74
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adc59d97d52a124c81b659853444c14
+      internalID: -749265813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAAST IDLE ANIMATION_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 74
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5608b5c76578d348939589084fc99b2
+      internalID: -1133988028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAAST IDLE ANIMATION_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 74
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9018e81331124bb4dbf538056eb4d05c
+      internalID: 1485955729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAAST IDLE ANIMATION_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 74
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a781a4b36224041a1197b22b8b441b
+      internalID: -818157957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAAST IDLE ANIMATION_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 0
+        width: 74
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c068ace8674652b4ab5d8797acca91a7
+      internalID: 1604647858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAAST IDLE ANIMATION_6
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 74
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c3448dbd7f9464dafdd64c6b8bc67f
+      internalID: -773233335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAAST IDLE ANIMATION_7
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 74
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e367419bc4bb6b240ac9aadcf287c65f
+      internalID: 605374965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VAAST IDLE ANIMATION_8
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 74
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524c2f3a5a46b784991e6e1035b46884
+      internalID: -1743412902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 22a5ad043f43a244b999118a752d436d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VAAST IDLE ANIMATION_0: 492630614
+      VAAST IDLE ANIMATION_1: -749265813
+      VAAST IDLE ANIMATION_2: -1133988028
+      VAAST IDLE ANIMATION_3: 1485955729
+      VAAST IDLE ANIMATION_4: -818157957
+      VAAST IDLE ANIMATION_5: 1604647858
+      VAAST IDLE ANIMATION_6: -773233335
+      VAAST IDLE ANIMATION_7: 605374965
+      VAAST IDLE ANIMATION_8: -1743412902
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
