@@ -1,21 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class AIController : MonoBehaviour
 {
     private GameObject Player;
-    public int MoveSpeed;
-  
+    public float MoveSpeed;
+    public EnemyStats stats;
     void Start()
     {
-     Player = GameObject.FindGameObjectWithTag("Player");
+        stats.setstats();
+        MoveSpeed = stats.Speed;
+        Player = GameObject.FindGameObjectWithTag("Player");
     }
 
     void Update()
     {
-        transform.position = Vector2.MoveTowards(this.transform.position, Player.transform.position, MoveSpeed*Time.deltaTime);
+        transform.position = Vector2.MoveTowards(this.transform.position, Player.transform.position, MoveSpeed * Time.deltaTime);
     }
+    
+    
 }
 
 

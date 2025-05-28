@@ -7,6 +7,7 @@ TagManager:
   - PlayerAttack
   - Enemy
   - Shooter
+  - BigEnemy
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - player
+  - enemy
   - 
   - 
   - 

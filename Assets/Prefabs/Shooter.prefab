@@ -46,8 +46,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b495a7d4f0e65a54f8542ea5769fa2bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weaponLevel: 0
+  shooterLevel: 0
+  stats: []
+  ShooterStats:
+  - nextfire: 2
+    weaponDescription: Decrease time between shots by 0.2 seconds
+  - nextfire: 1.8
+    weaponDescription: Decrease time between shots by 0.2 seconds
+  - nextfire: 1.6
+    weaponDescription: Decrease time between shots by 0.2 seconds
+  - nextfire: 1.4
+    weaponDescription: Decrease time between shots by 0.2 seconds
+  - nextfire: 1.2
+    weaponDescription: Decrease time between shots by 0.2 seconds
+  - nextfire: 1
+    weaponDescription: Decrease time between shots by 0.2 seconds
+  - nextfire: 0.8
+    weaponDescription: Decrease time between shots by 0.2 seconds
+  ShooterToCheck: {fileID: 0}
   Projectile: {fileID: 1079625304758152629, guid: c191fc1f9b4a46c4c982956106911675, type: 3}
+  speed: 40
   origin: {fileID: 0}
+  instantiatedProjectile: {fileID: 0}
+  cooldown: 1
+  defaultFireDelay: 0
 --- !u!212 &391544694424284717
 SpriteRenderer:
   m_ObjectHideFlags: 0

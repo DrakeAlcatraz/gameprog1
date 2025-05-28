@@ -1,41 +1,62 @@
-using Unity.VisualScripting;
-using UnityEditor.SceneManagement;
+using System.Collections;
+
 using UnityEngine;
-using UnityEngine.Assertions.Must;
-using UnityEngine.Rendering;
-using UnityEngine.UIElements;
+
 
 public class PlayerController : MonoBehaviour
 {
     public PlayerStats PlayerStats;
+    private SpriteRenderer spriteRenderer;
+
     [SerializeField] private HealthbarUI Healthbar;
     [SerializeField] private ExpbarUI EXPbar;
     [SerializeField] private UltBar UltBar;
+
+    public PanelController panelController;
     GameObject player;
-  bool isActiveAndEnabled;
+    bool isUlting;
 
-private bool isUltActive = false;
-private float ultTimer = 0f;
+    private bool isUltActive = false;
+    private float ultTimer = 0f;
+    [SerializeField] Weapons weapons;
+    [SerializeField] Weapons Shooter;
 
+    [SerializeField] Weapons Ultimate;
+
+
+    void OnEnable()
+    {
+        Physics2D.IgnoreLayerCollision(6, 7, false);
+    }
 
 
     void Start()
     {
+        Ultimate.ultimateLvl = 0;
+        Shooter.shooterLevel = 0;
+        weapons.weaponLevel = 0;
+      
         intitializeUIandStats();
     }
 
     void Update()
     {
         if (isUltActive)
-          {
-              ultTimer -= Time.deltaTime;
-                if (ultTimer <= 0)
-                   {
-                       isUltActive = false;
-                       gameObject.GetComponent<CheckAllShooters>().ShooterOverdrive(false);
-                       Debug.Log("Ult ended");
-                 }
-}
+        {
+            ultTimer -= Time.deltaTime;
+            if (ultTimer <= 0)
+            {
+                isUltActive = false;
+                gameObject.GetComponent<CheckAllShooters>().ShooterOverdrive(false);
+                Debug.Log("Ult ended");
+            }
+        }
+
+        if (PlayerStats.currentHealth > PlayerStats.Maxhealth)
+        {
+            PlayerStats.currentHealth = PlayerStats.Maxhealth;
+             Healthbar.SetHealthBarSize(PlayerStats.currentHealth);
+        }
 
         float UltperSecgain = PlayerStats.passiveUltGain();
         PlayerStats.UltCharge += UltperSecgain * Time.deltaTime;
@@ -45,6 +66,7 @@ private float ultTimer = 0f;
         {
             TakeDamage(20); // Press D to take damage
             Healthbar.SetHealthBarSize(PlayerStats.currentHealth);
+            
         }
 
         if (Input.GetKeyDown(KeyCode.X))
@@ -56,35 +78,57 @@ private float ultTimer = 0f;
         {
             ChargeUlt(PlayerStats.UltChargeMax);
         }
-     if (Input.GetKeyDown(KeyCode.Space) && PlayerStats.UltCharge >= PlayerStats.UltChargeMax)
-           {
-             Debug.Log("Ult activated");
+        if (Input.GetKeyDown(KeyCode.Space) && PlayerStats.UltCharge >= PlayerStats.UltChargeMax)
+        {
+            Debug.Log("Ult activated");
             isUltActive = true;
-            ultTimer = PlayerStats.UltDuration; 
-             PlayerStats.UltCharge = 0;
-             UltBar.SetUltBarsize(PlayerStats.UltCharge);
+            ultTimer = PlayerStats.UltDuration + Ultimate.overdriveStats[Ultimate.ultimateLvl].additionalUltDuration;
+            PlayerStats.UltCharge = 0;
+            UltBar.SetUltBarsize(PlayerStats.UltCharge);
             gameObject.GetComponent<CheckAllShooters>().ShooterOverdrive(true);
-}
+        }
 
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
-        PlayerStats.currentHealth -= damage;
+        if (PlayerStats.currentHealth > 0)
+        {
+              PlayerStats.currentHealth -= damage;
+            StartCoroutine(Iframe());
+            
+          
+        }
+
 
         if (PlayerStats.currentHealth < 0) PlayerStats.currentHealth = 0;
 
-        Healthbar.SetHealthBarSize(PlayerStats.currentHealth); 
+        Healthbar.SetHealthBarSize(PlayerStats.currentHealth);
 
         Debug.Log("Player Health: " + PlayerStats.currentHealth);
         if (PlayerStats.currentHealth <= 0)
         {
-            Destroy(player);
+            gameObject.SetActive(false);
+            panelController.GameOver();
+        }
+    }
+
+    public void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy"))
+        {
+            float Damage = collision.GetComponent<EnemyHItLogic>().stats.attack;
+            TakeDamage(Damage);
+
+        }
+        else if (collision.CompareTag("BigEnemy"))
+        {
+            float Damage = collision.GetComponent<BIggerEnemyLogic>().stats.bigattack;
+            TakeDamage(Damage);
         }
     }
 
 
-    // LEVEL SYSTEM STARTS HERE
     public void GainXP(float amount)
     {
         PlayerStats.xp += amount;
@@ -103,6 +147,7 @@ private float ultTimer = 0f;
 
     public void LevelUp(float xpOverflow)
     {
+          bool anyUpgradeAvailable = false;
         if (xpOverflow <= 0)
         {
             PlayerStats.xp = 0;
@@ -111,35 +156,67 @@ private float ultTimer = 0f;
         {
             PlayerStats.xp = xpOverflow;
         }
+       
 
-        PlayerStats.level++;
+     
+       PlayerStats.level++;
+        
+        if (weapons.weaponLevel < weapons.stats.Count - 1)
+        { panelController.levelUpButtons[0].gameObject.SetActive(true); panelController.levelUpButtons[0].ActivateButton(weapons); anyUpgradeAvailable = true; }
+        else { panelController.levelUpButtons[0].gameObject.SetActive(false) ; }
+        
+        
+         if (Shooter.shooterLevel < Shooter.ShooterStats.Count - 1)
+        { panelController.levelUpButtons2[0].gameObject.SetActive(true); panelController.levelUpButtons2[0].ActivateButton(Shooter);anyUpgradeAvailable = true;}
+        else { panelController.levelUpButtons2[0].gameObject.SetActive(false);}
+    
 
-        PlayerStats.xpToNextLevel += 50 * PlayerStats.level / 2;
 
-        PlayerStats.attack += 5;
-        PlayerStats.Maxhealth += 20;
-        PlayerStats.speed += 1;
+        if (PlayerStats.level % 5 == 0 && Ultimate.ultimateLvl < Ultimate.overdriveStats.Count - 1)
+        { panelController.levelUpbutton3rd[0].gameObject.SetActive(true); panelController.levelUpbutton3rd[0].ActivateButton(Ultimate);anyUpgradeAvailable = true;}
+        else{panelController.levelUpbutton3rd[0].gameObject.SetActive(false); }
+        if (anyUpgradeAvailable)
+        {
+           
+            PlayerStats.xpToNextLevel += 50 * PlayerStats.level ;
+            PlayerStats.attack += 5;
+            PlayerStats.Maxhealth += 20;
+               PlayerStats.speed += 0.3f;
+            PlayerStats.currentHealth += 20;
 
-        EXPbar.SetXPtonextLVl(PlayerStats.xpToNextLevel);
-        EXPbar.SetXPBarSize(PlayerStats.xp);
-        Debug.Log("LEVEL UP! Now Level " + PlayerStats.level);
-        Debug.Log("New Attack Power: " + PlayerStats.attack + ", New Health: " + PlayerStats.Maxhealth);
+            EXPbar.SetXPtonextLVl(PlayerStats.xpToNextLevel);
+            EXPbar.SetXPBarSize(PlayerStats.xp);
+
+            panelController.OpenLevelUpPanel();
+        }
+        else
+        {
+            PlayerStats.xpToNextLevel += 50 * PlayerStats.level;
+            PlayerStats.attack += 10;
+            PlayerStats.Maxhealth += 25;
+          PlayerStats.speed += 0.3f;
+            PlayerStats.currentHealth += 25;
+            
+          EXPbar.SetXPtonextLVl(PlayerStats.xpToNextLevel);
+          EXPbar.SetXPBarSize(PlayerStats.xp);
+
+         }
 
 
     }
 
     void intitializeUIandStats()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        PlayerStats.ResetStats();
         UltBar.SetUltCharge(PlayerStats.UltChargeMax);
         UltBar.SetUltBarsize(PlayerStats.UltCharge);
         EXPbar.SetXPtonextLVl(PlayerStats.xpToNextLevel);
         EXPbar.SetXPBarSize(PlayerStats.xp);
-        PlayerStats.ResetStats();
         player = GameObject.FindGameObjectWithTag("Player");
         PlayerStats.currentHealth = PlayerStats.Maxhealth;
         Healthbar.SetMaxHealth(PlayerStats.Maxhealth);
         Healthbar.SetHealthBarSize(PlayerStats.currentHealth);
-
     }
 
     public bool ChargeUlt(float UltChargeGain)
@@ -165,20 +242,32 @@ private float ultTimer = 0f;
 
     public bool VaastUlt()
     {
-      
+
         if (ChargeUlt(0) == true)
         {
             Debug.Log("Ult Used");
-            isActiveAndEnabled = true;
+            isUlting = true;
         }
-        else if (PlayerStats.UltDuration <=0)
+        else if (PlayerStats.UltDuration <= 0)
         {
             Debug.Log("Not yet");
-            isActiveAndEnabled = false;
+            isUlting = false;
         }
-        return isActiveAndEnabled;
-        
+        return isUlting;
+
     }
+
+    private IEnumerator Iframe()
+{
     
-    
+    Physics2D.IgnoreLayerCollision(6, 7, true);
+    Color originalColor = spriteRenderer.color;
+    spriteRenderer.color = Color.red;
+    yield return new WaitForSeconds(0.3f);
+    spriteRenderer.color = originalColor;
+    Physics2D.IgnoreLayerCollision(6, 7, false);
+   
+}
+
+
 }

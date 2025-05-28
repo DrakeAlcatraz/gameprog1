@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: 7f6f8e89312ce53429de657ca04e9aac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6609719738040966799
+    second: rhamy enemysprite_0
+  - first:
+      213: 350284985985624639
+    second: rhamy enemysprite_1
+  - first:
+      213: 2754007111158256772
+    second: rhamy enemysprite_2
+  - first:
+      213: 3942452479977440857
+    second: rhamy enemysprite_3
+  - first:
+      213: -4490528776761791949
+    second: rhamy enemysprite_4
+  - first:
+      213: -2588657750579968936
+    second: rhamy enemysprite_5
+  - first:
+      213: -4287613679223651989
+    second: rhamy enemysprite_6
+  - first:
+      213: 4980582574143386559
+    second: rhamy enemysprite_7
+  - first:
+      213: 2231913759510682092
+    second: rhamy enemysprite_8
+  - first:
+      213: 1951863299898100144
+    second: rhamy enemysprite_9
+  - first:
+      213: -72599466657506566
+    second: rhamy enemysprite_10
+  - first:
+      213: 5489573414350232123
+    second: rhamy enemysprite_11
+  - first:
+      213: -6132415572375894082
+    second: rhamy enemysprite_12
+  - first:
+      213: -829893224026163446
+    second: rhamy enemysprite_13
+  - first:
+      213: -1700668405572259719
+    second: rhamy enemysprite_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rhamy enemysprite_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 405
+        width: 405
+        height: 604
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1712e250bee8544a0800000000000000
+      internalID: -6609719738040966799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhamy enemysprite_3
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 405
+        width: 460
+        height: 618
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956c9ec74a766b630800000000000000
+      internalID: 3942452479977440857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhamy enemysprite_6
+      rect:
+        serializedVersion: 2
+        x: 4526
+        y: 409
+        width: 434
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61c4c353165f74c0800000000000000
+      internalID: -4287613679223651989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhamy enemysprite_7
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 405
+        width: 435
+        height: 559
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3315286759e1540800000000000000
+      internalID: 4980582574143386559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhamy enemysprite_8
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 405
+        width: 481
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9d0f43db959fe10800000000000000
+      internalID: 2231913759510682092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhamy enemysprite_11
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 405
+        width: 469
+        height: 557
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a16c27fe1ee2c40800000000000000
+      internalID: 5489573414350232123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhamy enemysprite_12
+      rect:
+        serializedVersion: 2
+        x: 3143
+        y: 409
+        width: 474
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb70671278845eaa0800000000000000
+      internalID: -6132415572375894082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhamy enemysprite_14
+      rect:
+        serializedVersion: 2
+        x: 3833
+        y: 405
+        width: 507
+        height: 546
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970b22d78130668e0800000000000000
+      internalID: -1700668405572259719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 00ba342b5974f084cab4dc62fd202727
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rhamy enemysprite_0: -6609719738040966799
+      rhamy enemysprite_11: 5489573414350232123
+      rhamy enemysprite_12: -6132415572375894082
+      rhamy enemysprite_14: -1700668405572259719
+      rhamy enemysprite_3: 3942452479977440857
+      rhamy enemysprite_6: -4287613679223651989
+      rhamy enemysprite_7: 4980582574143386559
+      rhamy enemysprite_8: 2231913759510682092
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

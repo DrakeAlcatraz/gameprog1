@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 850abaea09f704c7ebcf2f95e8365194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Islevel: {fileID: 11400000, guid: a33d2c9d3c8f377478e39ba36fabff01, type: 2}
+  weapons: {fileID: 0}
 --- !u!1 &6820436330377473341
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,16 +415,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56450a4a2655ad9499bd623a4a683d00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShooterToCheck: {fileID: 0}
+  weaponLevel: 0
+  shooterLevel: 0
+  ultimateLvl: 0
+  stats: []
+  ShooterStats:
+  - nextfire: 2
+    weaponDescription: 
+  - nextfire: 1.8
+    weaponDescription: 
+  - nextfire: 1.6
+    weaponDescription: 
+  - nextfire: 1.4
+    weaponDescription: 
+  - nextfire: 1.2
+    weaponDescription: 
+  - nextfire: 1
+    weaponDescription: 
+  - nextfire: 0.8
+    weaponDescription: 
+  overdriveStats: []
+  shooterScripts: []
   Projectile: {fileID: 1079625304758152629, guid: c191fc1f9b4a46c4c982956106911675, type: 3}
   speed: 40
-  cooldown: 0
-  nextfire: 1
-  defaultFireDelay: 0
-  FireRate: 1
   origin: {fileID: 2029373222554331692}
   instantiatedProjectile: {fileID: 0}
-  customFireDelay: 1.2
+  cooldown: 1
+  defaultFireDelay: 0
+  ThisShooterLevel: {fileID: 0}
+  thisLevel: 0
+  AdjustedNextfire: 0
+  customFireDelay: 0.2
   customDefault: 0
 --- !u!1001 &3509157654777518822
 PrefabInstance:
@@ -513,16 +534,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56450a4a2655ad9499bd623a4a683d00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShooterToCheck: {fileID: 0}
+  weaponLevel: 0
+  shooterLevel: 0
+  ultimateLvl: 0
+  stats: []
+  ShooterStats:
+  - nextfire: 2
+    weaponDescription: 
+  - nextfire: 1.8
+    weaponDescription: 
+  - nextfire: 1.6
+    weaponDescription: 
+  - nextfire: 1.4
+    weaponDescription: 
+  - nextfire: 1.2
+    weaponDescription: 
+  - nextfire: 1
+    weaponDescription: 
+  - nextfire: 0.8
+    weaponDescription: 
+  overdriveStats: []
+  shooterScripts: []
   Projectile: {fileID: 1079625304758152629, guid: c191fc1f9b4a46c4c982956106911675, type: 3}
   speed: 40
-  cooldown: 0
-  nextfire: 1
-  defaultFireDelay: 0
-  FireRate: 1
   origin: {fileID: 3141108524664651020}
   instantiatedProjectile: {fileID: 0}
-  customFireDelay: 1.6
+  cooldown: 1
+  defaultFireDelay: 0
+  ThisShooterLevel: {fileID: 0}
+  thisLevel: 0
+  AdjustedNextfire: 0
+  customFireDelay: 0.6
   customDefault: 0
 --- !u!1001 &4665606699072663976
 PrefabInstance:
@@ -607,16 +649,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56450a4a2655ad9499bd623a4a683d00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShooterToCheck: {fileID: 0}
+  weaponLevel: 0
+  shooterLevel: 0
+  ultimateLvl: 0
+  stats: []
+  ShooterStats:
+  - nextfire: 2
+    weaponDescription: 
+  - nextfire: 1.8
+    weaponDescription: 
+  - nextfire: 1.6
+    weaponDescription: 
+  - nextfire: 1.4
+    weaponDescription: 
+  - nextfire: 1.2
+    weaponDescription: 
+  - nextfire: 1
+    weaponDescription: 
+  - nextfire: 0.8
+    weaponDescription: 
+  overdriveStats: []
+  shooterScripts: []
   Projectile: {fileID: 1079625304758152629, guid: c191fc1f9b4a46c4c982956106911675, type: 3}
   speed: 40
-  cooldown: 0
-  nextfire: 1
-  defaultFireDelay: 0
-  FireRate: 1
   origin: {fileID: 6601130633062618690}
   instantiatedProjectile: {fileID: 0}
-  customFireDelay: 1.8
+  cooldown: 1
+  defaultFireDelay: 0
+  ThisShooterLevel: {fileID: 0}
+  thisLevel: 0
+  AdjustedNextfire: 0
+  customFireDelay: 0.8
   customDefault: 0
 --- !u!1001 &7789343781781486828
 PrefabInstance:
@@ -700,16 +763,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56450a4a2655ad9499bd623a4a683d00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShooterToCheck: {fileID: 0}
+  weaponLevel: 0
+  shooterLevel: 0
+  ultimateLvl: 0
+  stats: []
+  ShooterStats:
+  - nextfire: 2
+    weaponDescription: 
+  - nextfire: 1.8
+    weaponDescription: 
+  - nextfire: 1.6
+    weaponDescription: 
+  - nextfire: 1.4
+    weaponDescription: 
+  - nextfire: 1.2
+    weaponDescription: 
+  - nextfire: 1
+    weaponDescription: 
+  - nextfire: 0.8
+    weaponDescription: 
+  overdriveStats: []
+  shooterScripts: []
   Projectile: {fileID: 1079625304758152629, guid: c191fc1f9b4a46c4c982956106911675, type: 3}
   speed: 40
-  cooldown: 0
-  nextfire: 1
-  defaultFireDelay: 0
-  FireRate: 1
   origin: {fileID: 8592079888405928710}
   instantiatedProjectile: {fileID: 0}
-  customFireDelay: 1.4
+  cooldown: 1
+  defaultFireDelay: 0
+  ThisShooterLevel: {fileID: 0}
+  thisLevel: 0
+  AdjustedNextfire: 0
+  customFireDelay: 0.4
   customDefault: 0
 --- !u!4 &8784409341556451670 stripped
 Transform:
@@ -775,6 +859,10 @@ PrefabInstance:
     - target: {fileID: 2473332327312502089, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
       propertyPath: nextfire
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2473332327312502089, guid: 294a4c67869220b45894b881d56cf8d5, type: 3}
+      propertyPath: ShooterStats.Array.size
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

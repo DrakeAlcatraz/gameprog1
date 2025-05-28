@@ -1,0 +1,4080 @@
+fileFormatVersion: 2
+guid: 69f8ecd7668163643b8fc35c8e23aeb2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1343714863669353348
+    second: spinning cube sprite_0
+  - first:
+      213: 6011374985622923952
+    second: spinning cube sprite_1
+  - first:
+      213: 8218842461235960236
+    second: spinning cube sprite_2
+  - first:
+      213: 1990447955276103559
+    second: spinning cube sprite_3
+  - first:
+      213: -3699916015497563647
+    second: spinning cube sprite_4
+  - first:
+      213: -7612808107989792758
+    second: spinning cube sprite_5
+  - first:
+      213: 2702172280366673128
+    second: spinning cube sprite_6
+  - first:
+      213: 3024125432351558820
+    second: spinning cube sprite_7
+  - first:
+      213: 6282989033762289782
+    second: spinning cube sprite_8
+  - first:
+      213: -6817001572429993192
+    second: spinning cube sprite_9
+  - first:
+      213: -8803462303880071215
+    second: spinning cube sprite_10
+  - first:
+      213: 8556948277257665967
+    second: spinning cube sprite_11
+  - first:
+      213: -5942167256695016986
+    second: spinning cube sprite_12
+  - first:
+      213: 1727935026713274583
+    second: spinning cube sprite_13
+  - first:
+      213: 1484408716109307677
+    second: spinning cube sprite_14
+  - first:
+      213: 4262850908014866183
+    second: spinning cube sprite_15
+  - first:
+      213: -3487404365459644833
+    second: spinning cube sprite_16
+  - first:
+      213: -680495327469935131
+    second: spinning cube sprite_17
+  - first:
+      213: 277766312965822533
+    second: spinning cube sprite_18
+  - first:
+      213: -7869543383627003850
+    second: spinning cube sprite_19
+  - first:
+      213: 397761050089067395
+    second: spinning cube sprite_20
+  - first:
+      213: -6430831283278494051
+    second: spinning cube sprite_21
+  - first:
+      213: -7817772831712972100
+    second: spinning cube sprite_22
+  - first:
+      213: 1719115367058761916
+    second: spinning cube sprite_23
+  - first:
+      213: -4978255116846308557
+    second: spinning cube sprite_24
+  - first:
+      213: 92113092931971438
+    second: spinning cube sprite_25
+  - first:
+      213: 5541765930260631431
+    second: spinning cube sprite_26
+  - first:
+      213: 8899248581697662433
+    second: spinning cube sprite_27
+  - first:
+      213: 590227988984556914
+    second: spinning cube sprite_28
+  - first:
+      213: -4917273156883911594
+    second: spinning cube sprite_29
+  - first:
+      213: 920073160168336518
+    second: spinning cube sprite_30
+  - first:
+      213: -8611987399015003194
+    second: spinning cube sprite_31
+  - first:
+      213: -2073243967999216128
+    second: spinning cube sprite_32
+  - first:
+      213: -7483547443270918109
+    second: spinning cube sprite_33
+  - first:
+      213: 6810987546640057165
+    second: spinning cube sprite_34
+  - first:
+      213: 8781221108306357050
+    second: spinning cube sprite_35
+  - first:
+      213: -2744637851666138076
+    second: spinning cube sprite_36
+  - first:
+      213: 3121564666042351653
+    second: spinning cube sprite_37
+  - first:
+      213: -8331893123334006897
+    second: spinning cube sprite_38
+  - first:
+      213: -5105677731328454824
+    second: spinning cube sprite_39
+  - first:
+      213: 7201639531956148219
+    second: spinning cube sprite_40
+  - first:
+      213: 6971184532012983190
+    second: spinning cube sprite_41
+  - first:
+      213: 5229648682952211654
+    second: spinning cube sprite_42
+  - first:
+      213: 6877426650712109594
+    second: spinning cube sprite_43
+  - first:
+      213: -7415629051030164764
+    second: spinning cube sprite_44
+  - first:
+      213: 2303943308653168510
+    second: spinning cube sprite_45
+  - first:
+      213: -4777103648144368049
+    second: spinning cube sprite_46
+  - first:
+      213: 7054183823437566781
+    second: spinning cube sprite_47
+  - first:
+      213: -4110818439110837731
+    second: spinning cube sprite_48
+  - first:
+      213: -4678540505773088616
+    second: spinning cube sprite_49
+  - first:
+      213: 7607043381983165398
+    second: spinning cube sprite_50
+  - first:
+      213: 2056264920126006114
+    second: spinning cube sprite_51
+  - first:
+      213: 8138967808813821696
+    second: spinning cube sprite_52
+  - first:
+      213: 7233176360553372590
+    second: spinning cube sprite_53
+  - first:
+      213: -7708064482729169531
+    second: spinning cube sprite_54
+  - first:
+      213: -5833526548135641603
+    second: spinning cube sprite_55
+  - first:
+      213: 4668622569445925649
+    second: spinning cube sprite_56
+  - first:
+      213: -5381169051656379361
+    second: spinning cube sprite_57
+  - first:
+      213: 345978582337043691
+    second: spinning cube sprite_58
+  - first:
+      213: -7845767209692361925
+    second: spinning cube sprite_59
+  - first:
+      213: 1524061827768005412
+    second: spinning cube sprite_60
+  - first:
+      213: 1194471109217616757
+    second: spinning cube sprite_61
+  - first:
+      213: -3834089676861916197
+    second: spinning cube sprite_62
+  - first:
+      213: -9163578539865050936
+    second: spinning cube sprite_63
+  - first:
+      213: -3011390568315731669
+    second: spinning cube sprite_64
+  - first:
+      213: 5706153184710215126
+    second: spinning cube sprite_65
+  - first:
+      213: -8352358175463881548
+    second: spinning cube sprite_66
+  - first:
+      213: 4316394726956474111
+    second: spinning cube sprite_67
+  - first:
+      213: 8061267250021965872
+    second: spinning cube sprite_68
+  - first:
+      213: -1652346141947459031
+    second: spinning cube sprite_69
+  - first:
+      213: -3888881108703733904
+    second: spinning cube sprite_70
+  - first:
+      213: -185351613117502851
+    second: spinning cube sprite_71
+  - first:
+      213: -1276162224015793211
+    second: spinning cube sprite_72
+  - first:
+      213: 7605681347840345658
+    second: spinning cube sprite_73
+  - first:
+      213: -369530161546098684
+    second: spinning cube sprite_74
+  - first:
+      213: -3952868985889413759
+    second: spinning cube sprite_75
+  - first:
+      213: -7140123661648838599
+    second: spinning cube sprite_76
+  - first:
+      213: -2751924498138075589
+    second: spinning cube sprite_77
+  - first:
+      213: -7885761093445629555
+    second: spinning cube sprite_78
+  - first:
+      213: -8446182970982941148
+    second: spinning cube sprite_79
+  - first:
+      213: 6510326750035569533
+    second: spinning cube sprite_80
+  - first:
+      213: 3271166004233431720
+    second: spinning cube sprite_81
+  - first:
+      213: -9159024307921136842
+    second: spinning cube sprite_82
+  - first:
+      213: -4225033670588186270
+    second: spinning cube sprite_83
+  - first:
+      213: 4000068422376857460
+    second: spinning cube sprite_84
+  - first:
+      213: 2135361383996380375
+    second: spinning cube sprite_85
+  - first:
+      213: -3083964546908860317
+    second: spinning cube sprite_86
+  - first:
+      213: -5179012272596327126
+    second: spinning cube sprite_87
+  - first:
+      213: -4605569564227873988
+    second: spinning cube sprite_88
+  - first:
+      213: -3406285027639958223
+    second: spinning cube sprite_89
+  - first:
+      213: -3429197279691039691
+    second: spinning cube sprite_90
+  - first:
+      213: -8901277718441145276
+    second: spinning cube sprite_91
+  - first:
+      213: 7847826666240902906
+    second: spinning cube sprite_92
+  - first:
+      213: -1612496542694596780
+    second: spinning cube sprite_93
+  - first:
+      213: 897581157300607732
+    second: spinning cube sprite_94
+  - first:
+      213: -1187413428979200087
+    second: spinning cube sprite_95
+  - first:
+      213: 254479868300807449
+    second: spinning cube sprite_96
+  - first:
+      213: -1826351999422730351
+    second: spinning cube sprite_97
+  - first:
+      213: -8426838230548504366
+    second: spinning cube sprite_98
+  - first:
+      213: 2753017676368604920
+    second: spinning cube sprite_99
+  - first:
+      213: 888740229511549597
+    second: spinning cube sprite_100
+  - first:
+      213: -3596793283054038957
+    second: spinning cube sprite_101
+  - first:
+      213: 8893984474830321983
+    second: spinning cube sprite_102
+  - first:
+      213: -8505745641256558003
+    second: spinning cube sprite_103
+  - first:
+      213: 3744425344063494196
+    second: spinning cube sprite_104
+  - first:
+      213: 7699677429519268671
+    second: spinning cube sprite_105
+  - first:
+      213: -89233183145671806
+    second: spinning cube sprite_106
+  - first:
+      213: -5630656008032597004
+    second: spinning cube sprite_107
+  - first:
+      213: -2971595119042850658
+    second: spinning cube sprite_108
+  - first:
+      213: -3323088908143491886
+    second: spinning cube sprite_109
+  - first:
+      213: 1010211028045165985
+    second: spinning cube sprite_110
+  - first:
+      213: 5098017546525138921
+    second: spinning cube sprite_111
+  - first:
+      213: 1190594725534786155
+    second: spinning cube sprite_112
+  - first:
+      213: 3059486645807119538
+    second: spinning cube sprite_113
+  - first:
+      213: -3710786626021628083
+    second: spinning cube sprite_114
+  - first:
+      213: -5916964286220333907
+    second: spinning cube sprite_115
+  - first:
+      213: -4747118705496144708
+    second: spinning cube sprite_116
+  - first:
+      213: -1467331355250765269
+    second: spinning cube sprite_117
+  - first:
+      213: -4150474400495408431
+    second: spinning cube sprite_118
+  - first:
+      213: -3896789789895555402
+    second: spinning cube sprite_119
+  - first:
+      213: 4579620852858612954
+    second: spinning cube sprite_120
+  - first:
+      213: -2641694241510773333
+    second: spinning cube sprite_121
+  - first:
+      213: 7665019560089704319
+    second: spinning cube sprite_122
+  - first:
+      213: 2503124795159453160
+    second: spinning cube sprite_123
+  - first:
+      213: -5653098971840195720
+    second: spinning cube sprite_124
+  - first:
+      213: -7261382858058912812
+    second: spinning cube sprite_125
+  - first:
+      213: -2028290942454131111
+    second: spinning cube sprite_126
+  - first:
+      213: -7689783001038778800
+    second: spinning cube sprite_127
+  - first:
+      213: 4214634100434186951
+    second: spinning cube sprite_128
+  - first:
+      213: -8764805081849503393
+    second: spinning cube sprite_129
+  - first:
+      213: 6433781310605300364
+    second: spinning cube sprite_130
+  - first:
+      213: -4905818673507189568
+    second: spinning cube sprite_131
+  - first:
+      213: -6072225234034280316
+    second: spinning cube sprite_132
+  - first:
+      213: 4185037795565253090
+    second: spinning cube sprite_133
+  - first:
+      213: -2661339854938005919
+    second: spinning cube sprite_134
+  - first:
+      213: -7685364093835011698
+    second: spinning cube sprite_135
+  - first:
+      213: -4962949653171293408
+    second: spinning cube sprite_136
+  - first:
+      213: 8946220617085610688
+    second: spinning cube sprite_137
+  - first:
+      213: -4777494982387793741
+    second: spinning cube sprite_138
+  - first:
+      213: -6855741430822066487
+    second: spinning cube sprite_139
+  - first:
+      213: -6688375984363329779
+    second: spinning cube sprite_140
+  - first:
+      213: 5339199938865881055
+    second: spinning cube sprite_141
+  - first:
+      213: -6405000805674759345
+    second: spinning cube sprite_142
+  - first:
+      213: 2564242428282865850
+    second: spinning cube sprite_143
+  - first:
+      213: 4322363080248480101
+    second: spinning cube sprite_144
+  - first:
+      213: 8748608973657611801
+    second: spinning cube sprite_145
+  - first:
+      213: -323836289111304906
+    second: spinning cube sprite_146
+  - first:
+      213: -9024997806923630090
+    second: spinning cube sprite_147
+  - first:
+      213: -8752651487529472896
+    second: spinning cube sprite_148
+  - first:
+      213: -7256089357797038696
+    second: spinning cube sprite_149
+  - first:
+      213: 1800152301287362853
+    second: spinning cube sprite_150
+  - first:
+      213: -7639101905011895237
+    second: spinning cube sprite_151
+  - first:
+      213: -6350805305391785049
+    second: spinning cube sprite_152
+  - first:
+      213: 5511575652842472259
+    second: spinning cube sprite_153
+  - first:
+      213: 1892823723376951434
+    second: spinning cube sprite_154
+  - first:
+      213: 1812622388750466521
+    second: spinning cube sprite_155
+  - first:
+      213: -971794450758803944
+    second: spinning cube sprite_156
+  - first:
+      213: 6352237457562030457
+    second: spinning cube sprite_157
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spinning cube sprite_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1125
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b9c689c85d5a210800000000000000
+      internalID: 1343714863669353348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba29b523b1bc6350800000000000000
+      internalID: 6011374985622923952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_2
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1124
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9ddd65ca13f0270800000000000000
+      internalID: 8218842461235960236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_3
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1124
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f72269edd7f9b10800000000000000
+      internalID: 1990447955276103559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_4
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1124
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1023d75acf147acc0800000000000000
+      internalID: -3699916015497563647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1124
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a080e043c5fd95690800000000000000
+      internalID: -7612808107989792758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1123
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eca92d4f5b008520800000000000000
+      internalID: 2702172280366673128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 1123
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac0a87ee0ad7f920800000000000000
+      internalID: 3024125432351558820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1123
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678731dcc39a13750800000000000000
+      internalID: 6282989033762289782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_9
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1122
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81be70a10352561a0800000000000000
+      internalID: -6817001572429993192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_10
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 1122
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7bfa76da1d3d580800000000000000
+      internalID: -8803462303880071215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_11
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 1122
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad755b1f1360c670800000000000000
+      internalID: 8556948277257665967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_12
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 1121
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e17cbcec5e298da0800000000000000
+      internalID: -5942167256695016986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_13
+      rect:
+        serializedVersion: 2
+        x: 2854
+        y: 1121
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8233670cbdaf710800000000000000
+      internalID: 1727935026713274583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_14
+      rect:
+        serializedVersion: 2
+        x: 3067
+        y: 1120
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f5031dcdda99410800000000000000
+      internalID: 1484408716109307677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_15
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 1121
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f6da6b050b82b30800000000000000
+      internalID: 4262850908014866183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_16
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1001
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e91a8e4304a9fc0800000000000000
+      internalID: -3487404365459644833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_17
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1001
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e567d6ea156e86f0800000000000000
+      internalID: -680495327469935131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_18
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1000
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548d5ee6df2dad300800000000000000
+      internalID: 277766312965822533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_19
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1000
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638036abcf3c9c290800000000000000
+      internalID: -7869543383627003850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_20
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1000
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3839b005191258500800000000000000
+      internalID: 397761050089067395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1000
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9647b5150911c6a0800000000000000
+      internalID: -6430831283278494051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1000
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb27c07a701b18390800000000000000
+      internalID: -7817772831712972100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1001
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8e37d61568bd710800000000000000
+      internalID: 1719115367058761916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1001
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333ea1fd85fa9eab0800000000000000
+      internalID: -4978255116846308557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_25
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 1001
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e696f57be50474100800000000000000
+      internalID: 92113092931971438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_26
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 1001
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f0c8580ce48ec40800000000000000
+      internalID: 5541765930260631431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_27
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 1001
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edecff4f6b708b70800000000000000
+      internalID: 8899248581697662433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_28
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 1001
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27deae39a39e03800800000000000000
+      internalID: 590227988984556914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_29
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 1001
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cee5cdd1652cbb0800000000000000
+      internalID: -4917273156883911594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_30
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 1002
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c64371aa1c4cc00800000000000000
+      internalID: 920073160168336518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_31
+      rect:
+        serializedVersion: 2
+        x: 3282
+        y: 1002
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb029fb6131c7880800000000000000
+      internalID: -8611987399015003194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_32
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 882
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0067faa789b5a33e0800000000000000
+      internalID: -2073243967999216128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_33
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 883
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320ed08ff39152890800000000000000
+      internalID: -7483547443270918109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_34
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 883
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d430717661d758e50800000000000000
+      internalID: 6810987546640057165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_35
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 884
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b23c6b21a2dd970800000000000000
+      internalID: 8781221108306357050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_36
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 884
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c39566a6619e9d0800000000000000
+      internalID: -2744637851666138076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 884
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5208dd66686025b20800000000000000
+      internalID: 3121564666042351653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 885
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87182d395b2f5c80800000000000000
+      internalID: -8331893123334006897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 885
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f8b86872df429b0800000000000000
+      internalID: -5105677731328454824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_40
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 886
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf718a69ffc51f360800000000000000
+      internalID: 7201639531956148219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_41
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 886
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693e45e956f9eb060800000000000000
+      internalID: 6971184532012983190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_42
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 886
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccb47fe4c1739840800000000000000
+      internalID: 5229648682952211654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_43
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 886
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12ff74c917817f50800000000000000
+      internalID: 6877426650712109594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_44
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 886
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eaa743faa4661990800000000000000
+      internalID: -7415629051030164764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_45
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 885
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7709ee7b3049ff10800000000000000
+      internalID: 2303943308653168510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_46
+      rect:
+        serializedVersion: 2
+        x: 3073
+        y: 885
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ed12dca8154bdb0800000000000000
+      internalID: -4777103648144368049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_47
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 884
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d339d4010de75e160800000000000000
+      internalID: 7054183823437566781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_48
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 764
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a3ca0e86073f6c0800000000000000
+      internalID: -4110818439110837731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_49
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 763
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8906e1ea23c721fb0800000000000000
+      internalID: -4678540505773088616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_50
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 763
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbb71ee6a5a19960800000000000000
+      internalID: 7607043381983165398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_51
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 763
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2632530ec02598c10800000000000000
+      internalID: 2056264920126006114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_52
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 762
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fefaa991c63f070800000000000000
+      internalID: 8138967808813821696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_53
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 762
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab5980b397616460800000000000000
+      internalID: 7233176360553372590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_54
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 762
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d6f192134770590800000000000000
+      internalID: -7708064482729169531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_55
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 761
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd709603862b0fa0800000000000000
+      internalID: -5833526548135641603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_56
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 761
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1132232dd774ac040800000000000000
+      internalID: 4668622569445925649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_57
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 761
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1422b7124f3255b0800000000000000
+      internalID: -5381169051656379361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_58
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 761
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becb71400b92dc400800000000000000
+      internalID: 345978582337043691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_59
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 761
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b01eb9a4c3e1390800000000000000
+      internalID: -7845767209692361925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_60
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 760
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42338d3582e862510800000000000000
+      internalID: 1524061827768005412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_61
+      rect:
+        serializedVersion: 2
+        x: 2854
+        y: 760
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573026f252d939010800000000000000
+      internalID: 1194471109217616757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_62
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 760
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb37a5b0c39acac0800000000000000
+      internalID: -3834089676861916197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_63
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 760
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c073f36edd64d080800000000000000
+      internalID: -9163578539865050936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_64
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 640
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21449fab346536d0800000000000000
+      internalID: -3011390568315731669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_65
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 640
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5cd98c614503f40800000000000000
+      internalID: 5706153184710215126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_66
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 640
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b445aafd76761c80800000000000000
+      internalID: -8352358175463881548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_67
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 641
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe1c9a822ae6eb30800000000000000
+      internalID: 4316394726956474111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_68
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 641
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030ac0d7adf5fdf60800000000000000
+      internalID: 8061267250021965872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_69
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 641
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a0c3b30ffa119e0800000000000000
+      internalID: -1652346141947459031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_70
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 642
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0779cfd5c3be70ac0800000000000000
+      internalID: -3888881108703733904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_71
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 642
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ae59d90bf7d6df0800000000000000
+      internalID: -185351613117502851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_72
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 642
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c324c9f7392a4ee0800000000000000
+      internalID: -1276162224015793211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_73
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 643
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3686d4a3eecc8960800000000000000
+      internalID: 7605681347840345658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_74
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 643
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4088043a64a2fdaf0800000000000000
+      internalID: -369530161546098684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_75
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 644
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185276cb9969429c0800000000000000
+      internalID: -3952868985889413759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_76
+      rect:
+        serializedVersion: 2
+        x: 2645
+        y: 644
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9304f071c5f29ec90800000000000000
+      internalID: -7140123661648838599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_77
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 645
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ee8cfcf333fc9d0800000000000000
+      internalID: -2751924498138075589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_78
+      rect:
+        serializedVersion: 2
+        x: 3073
+        y: 645
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89c399e016209290800000000000000
+      internalID: -7885761093445629555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_79
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 644
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ebb92765129ca80800000000000000
+      internalID: -8446182970982941148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_80
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 524
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7be79b9fa3595a50800000000000000
+      internalID: 6510326750035569533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_81
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 524
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aaeaa34624856d20800000000000000
+      internalID: 3271166004233431720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_82
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 523
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63351352beb94e080800000000000000
+      internalID: -9159024307921136842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_83
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 523
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261c684034aad55c0800000000000000
+      internalID: -4225033670588186270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_84
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 522
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f97017909138730800000000000000
+      internalID: 4000068422376857460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_85
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 522
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4d0387dd352ad10800000000000000
+      internalID: 2135361383996380375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_86
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 521
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3605999859e8335d0800000000000000
+      internalID: -3083964546908860317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_87
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 521
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25e18417c37028b0800000000000000
+      internalID: -5179012272596327126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_88
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 521
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33d8d7f1eab510c0800000000000000
+      internalID: -4605569564227873988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_89
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 520
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135e9cb80d17ab0d0800000000000000
+      internalID: -3406285027639958223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_90
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 520
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c97472e3b0960d0800000000000000
+      internalID: -3429197279691039691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_91
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 520
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c4739731f487480800000000000000
+      internalID: -8901277718441145276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_92
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 520
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6802cf5c419ec60800000000000000
+      internalID: 7847826666240902906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_93
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 520
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f942310f24f99e0800000000000000
+      internalID: -1612496542694596780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_94
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 520
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa9cf59e49d47c00800000000000000
+      internalID: 897581157300607732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_95
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 520
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af8a2c07c5758fe0800000000000000
+      internalID: -1187413428979200087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_96
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 400
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dce888718188300800000000000000
+      internalID: 254479868300807449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_97
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 400
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f659f688e77a6e0800000000000000
+      internalID: -1826351999422730351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_98
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 401
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0a970d64bdd0b80800000000000000
+      internalID: -8426838230548504366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_99
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 401
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe62549dfea43620800000000000000
+      internalID: 2753017676368604920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_100
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 401
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9292ada780755c00800000000000000
+      internalID: 888740229511549597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_101
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 401
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3509d01d09f951ec0800000000000000
+      internalID: -3596793283054038957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_102
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 402
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39b91ce1c7cd6b70800000000000000
+      internalID: 8893984474830321983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_103
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 402
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d426317976585f980800000000000000
+      internalID: -8505745641256558003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_104
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 402
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438dfd8f20fd6f330800000000000000
+      internalID: 3744425344063494196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_105
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 403
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bb697d3dfbada60800000000000000
+      internalID: 7699677429519268671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_106
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 403
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283cc6884eaf2cef0800000000000000
+      internalID: -89233183145671806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_107
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 403
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb4cc47134ebd1b0800000000000000
+      internalID: -5630656008032597004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_108
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 404
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e909a21cbf5c2c6d0800000000000000
+      internalID: -2971595119042850658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_109
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 404
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d401199e3402e1d0800000000000000
+      internalID: -3323088908143491886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_110
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 405
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a570d2e39df40e00800000000000000
+      internalID: 1010211028045165985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_111
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 405
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efd657b2fbcfb640800000000000000
+      internalID: 5098017546525138921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_112
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 286
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6264f64897d58010800000000000000
+      internalID: 1190594725534786155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_113
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc726ef4ea757a20800000000000000
+      internalID: 3059486645807119538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_114
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 286
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47e5b66933a08cc0800000000000000
+      internalID: -3710786626021628083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_115
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 286
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac0a23c458b2eda0800000000000000
+      internalID: -5916964286220333907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_116
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 286
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb44a4c40b8de1eb0800000000000000
+      internalID: -4747118705496144708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_117
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 285
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b225c7a18edf2abe0800000000000000
+      internalID: -1467331355250765269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_118
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 285
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da6e1dd58d8666c0800000000000000
+      internalID: -4150474400495408431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_119
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 284
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b608e80552dbe9c0800000000000000
+      internalID: -3896789789895555402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_120
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 284
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adceb9cd6e41e8f30800000000000000
+      internalID: 4579620852858612954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_121
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 284
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad2e896511d65bd0800000000000000
+      internalID: -2641694241510773333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_122
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 283
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77519bcdae9f5a60800000000000000
+      internalID: 7665019560089704319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_123
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 283
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed93f33db2ecb220800000000000000
+      internalID: 2503124795159453160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_124
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 282
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873d65fbf682c81b0800000000000000
+      internalID: -5653098971840195720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_125
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 282
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dba94753c26a3b90800000000000000
+      internalID: -7261382858058912812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_126
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 282
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95611e952201ad3e0800000000000000
+      internalID: -2028290942454131111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_127
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 282
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e0f3f4a17684590800000000000000
+      internalID: -7689783001038778800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_128
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 161
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2b0ae52636d7a30800000000000000
+      internalID: 4214634100434186951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_129
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 161
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5162da47382d5680800000000000000
+      internalID: -8764805081849503393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_130
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 161
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c821d2da302694950800000000000000
+      internalID: 6433781310605300364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_131
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 161
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc302998e70bebb0800000000000000
+      internalID: -4905818673507189568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_132
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 161
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4883939525f1bbba0800000000000000
+      internalID: -6072225234034280316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_133
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 161
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e13048a3bd341a30800000000000000
+      internalID: 4185037795565253090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_134
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 161
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e94d79085011bd0800000000000000
+      internalID: -2661339854938005919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_135
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 160
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e891c61531a185590800000000000000
+      internalID: -7685364093835011698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_136
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 160
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023b394d59f002bb0800000000000000
+      internalID: -4962949653171293408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_137
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 161
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cae9ab804c572c70800000000000000
+      internalID: 8946220617085610688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_138
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 160
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0809230ade2bdb0800000000000000
+      internalID: -4777494982387793741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_139
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 161
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c62cefed738bd0a0800000000000000
+      internalID: -6855741430822066487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_140
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 161
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0725cf8a7d1e23a0800000000000000
+      internalID: -6688375984363329779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_141
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 161
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf53ec5e06a81a40800000000000000
+      internalID: 5339199938865881055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_142
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 161
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b4aafc3bddc17a0800000000000000
+      internalID: -6405000805674759345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_143
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 161
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab809cf07e4069320800000000000000
+      internalID: 2564242428282865850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_144
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 41
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5615974125e1cfb30800000000000000
+      internalID: 4322363080248480101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_145
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 42
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e18a9628d496970800000000000000
+      internalID: 8748608973657611801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_146
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 42
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635d32e5c90818bf0800000000000000
+      internalID: -323836289111304906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_147
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 42
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f933a3af44c0c280800000000000000
+      internalID: -9024997806923630090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_148
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 42
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ce20b78d5588680800000000000000
+      internalID: -8752651487529472896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_149
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 42
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895e30a6c213d4b90800000000000000
+      internalID: -7256089357797038696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_150
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 43
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521d5dbfafc6bf810800000000000000
+      internalID: 1800152301287362853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_151
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 43
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3491c48a457cf590800000000000000
+      internalID: -7639101905011895237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_152
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 44
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abd47609386dd7a0800000000000000
+      internalID: -6350805305391785049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_153
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 44
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3430e5ccadc0d7c40800000000000000
+      internalID: 5511575652842472259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_154
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 44
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80c056d529a44a10800000000000000
+      internalID: 1892823723376951434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_155
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 45
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd3469757ab72910800000000000000
+      internalID: 1812622388750466521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_156
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 45
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e53d7881e7382f0800000000000000
+      internalID: -971794450758803944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning cube sprite_157
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 45
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9715ae2ef4ea72850800000000000000
+      internalID: 6352237457562030457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

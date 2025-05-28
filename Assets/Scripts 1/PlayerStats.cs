@@ -12,27 +12,27 @@ public class PlayerStats : ScriptableObject
     public float xpToNextLevel = 100;
     public float damagetaken = 20;
 
-    public int speed = 5;
+    public float speed;
     public float UltCharge = 0f;
     public float UltChargeMax = 200f;
-    public float UltDuration = 5f;
-    public float Ultatkspeedchange = 0.5f;
+    public float UltDuration = 4f;
+   
 
     public void ResetStats()
 
     {
         Maxhealth = 100;
-        attack = 10;
+        attack = 20;
         level = 1;
         xp = 0;
         xpToNextLevel = 100;
         damagetaken = 20;
-        speed = 5;
+        speed = 7;
         currentHealth = Maxhealth;
         UltCharge = 0;
         UltChargeMax = 200f;
-        UltDuration = 5f;
-        Ultatkspeedchange = 0.5f;
+        UltDuration = 4f;
+      
     }
 
     public float passiveUltGain()

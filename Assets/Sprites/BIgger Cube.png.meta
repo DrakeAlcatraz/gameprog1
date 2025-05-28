@@ -1,0 +1,4080 @@
+fileFormatVersion: 2
+guid: 6b92279eb5ea8204fa62b28b1de8f388
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 143235293259050624
+    second: BIgger Cube_0
+  - first:
+      213: 2005733991470663939
+    second: BIgger Cube_1
+  - first:
+      213: -7070302782523934961
+    second: BIgger Cube_2
+  - first:
+      213: -1740331377304961974
+    second: BIgger Cube_3
+  - first:
+      213: -1886556067783425218
+    second: BIgger Cube_4
+  - first:
+      213: 4123853205101307850
+    second: BIgger Cube_5
+  - first:
+      213: 4132998295694373695
+    second: BIgger Cube_6
+  - first:
+      213: 6257247595448683390
+    second: BIgger Cube_7
+  - first:
+      213: -4154503357348715867
+    second: BIgger Cube_8
+  - first:
+      213: 586420814492061208
+    second: BIgger Cube_9
+  - first:
+      213: -6469956090226888681
+    second: BIgger Cube_10
+  - first:
+      213: 4722840925887335348
+    second: BIgger Cube_11
+  - first:
+      213: 3597246585396607633
+    second: BIgger Cube_12
+  - first:
+      213: -5547431299179109581
+    second: BIgger Cube_13
+  - first:
+      213: 6942328545074620528
+    second: BIgger Cube_14
+  - first:
+      213: 4596049297811024101
+    second: BIgger Cube_15
+  - first:
+      213: -8356601206127722166
+    second: BIgger Cube_16
+  - first:
+      213: -2180464379322117763
+    second: BIgger Cube_17
+  - first:
+      213: -3318308246585356066
+    second: BIgger Cube_18
+  - first:
+      213: -1931001200801446516
+    second: BIgger Cube_19
+  - first:
+      213: -8178781995345737039
+    second: BIgger Cube_20
+  - first:
+      213: 2946875009865462003
+    second: BIgger Cube_21
+  - first:
+      213: 7471214892305516077
+    second: BIgger Cube_22
+  - first:
+      213: -3687158167120530477
+    second: BIgger Cube_23
+  - first:
+      213: -8595933200705368963
+    second: BIgger Cube_24
+  - first:
+      213: -5121604819269654443
+    second: BIgger Cube_25
+  - first:
+      213: -2622980683813547184
+    second: BIgger Cube_26
+  - first:
+      213: -4622293538139281710
+    second: BIgger Cube_27
+  - first:
+      213: 8766951014511849417
+    second: BIgger Cube_28
+  - first:
+      213: 3520702552988270681
+    second: BIgger Cube_29
+  - first:
+      213: 8340750712836478774
+    second: BIgger Cube_30
+  - first:
+      213: -8203397748433393340
+    second: BIgger Cube_31
+  - first:
+      213: 6347724298630687755
+    second: BIgger Cube_32
+  - first:
+      213: -5267651232719879836
+    second: BIgger Cube_33
+  - first:
+      213: -2513503445460534369
+    second: BIgger Cube_34
+  - first:
+      213: 4589281518016759520
+    second: BIgger Cube_35
+  - first:
+      213: -5027902802464426916
+    second: BIgger Cube_36
+  - first:
+      213: -8570318525950761957
+    second: BIgger Cube_37
+  - first:
+      213: -121768716750684698
+    second: BIgger Cube_38
+  - first:
+      213: 6383073919677137471
+    second: BIgger Cube_39
+  - first:
+      213: -8945600364813234385
+    second: BIgger Cube_40
+  - first:
+      213: -9208591131795753602
+    second: BIgger Cube_41
+  - first:
+      213: 8049628954464435513
+    second: BIgger Cube_42
+  - first:
+      213: 626908341914259478
+    second: BIgger Cube_43
+  - first:
+      213: -6574529565653717609
+    second: BIgger Cube_44
+  - first:
+      213: 7819639716191861592
+    second: BIgger Cube_45
+  - first:
+      213: -2655987266983803409
+    second: BIgger Cube_46
+  - first:
+      213: -7450242045258949602
+    second: BIgger Cube_47
+  - first:
+      213: -7513893480136845005
+    second: BIgger Cube_48
+  - first:
+      213: -8949095789006434275
+    second: BIgger Cube_49
+  - first:
+      213: 8175892336784458249
+    second: BIgger Cube_50
+  - first:
+      213: -3360241249292744403
+    second: BIgger Cube_51
+  - first:
+      213: -8454764221849385779
+    second: BIgger Cube_52
+  - first:
+      213: -8241734541280083019
+    second: BIgger Cube_53
+  - first:
+      213: 3859441610055324377
+    second: BIgger Cube_54
+  - first:
+      213: -1841901954540504537
+    second: BIgger Cube_55
+  - first:
+      213: -2599523406252819968
+    second: BIgger Cube_56
+  - first:
+      213: -7396711736040186728
+    second: BIgger Cube_57
+  - first:
+      213: -7792948561757612394
+    second: BIgger Cube_58
+  - first:
+      213: 7269790777911731342
+    second: BIgger Cube_59
+  - first:
+      213: 7493145576836609931
+    second: BIgger Cube_60
+  - first:
+      213: -5010776376615407111
+    second: BIgger Cube_61
+  - first:
+      213: 1550183320898610793
+    second: BIgger Cube_62
+  - first:
+      213: -8331342053757484928
+    second: BIgger Cube_63
+  - first:
+      213: 4163712282078902228
+    second: BIgger Cube_64
+  - first:
+      213: -8956850444795129108
+    second: BIgger Cube_65
+  - first:
+      213: 7751613704034222032
+    second: BIgger Cube_66
+  - first:
+      213: 884081132757013596
+    second: BIgger Cube_67
+  - first:
+      213: 5179235788994867575
+    second: BIgger Cube_68
+  - first:
+      213: 5207448179016170421
+    second: BIgger Cube_69
+  - first:
+      213: 4878884010211368718
+    second: BIgger Cube_70
+  - first:
+      213: 5636528670076073092
+    second: BIgger Cube_71
+  - first:
+      213: 1192330703361812906
+    second: BIgger Cube_72
+  - first:
+      213: 1836582103645119268
+    second: BIgger Cube_73
+  - first:
+      213: 6374189668446717899
+    second: BIgger Cube_74
+  - first:
+      213: 8836810893258689517
+    second: BIgger Cube_75
+  - first:
+      213: -3815314839430718578
+    second: BIgger Cube_76
+  - first:
+      213: -903287535976924871
+    second: BIgger Cube_77
+  - first:
+      213: 1276934160518045346
+    second: BIgger Cube_78
+  - first:
+      213: 2696734761603709110
+    second: BIgger Cube_79
+  - first:
+      213: -119703602129393012
+    second: BIgger Cube_80
+  - first:
+      213: 8511662250418471036
+    second: BIgger Cube_81
+  - first:
+      213: 7740994172019850873
+    second: BIgger Cube_82
+  - first:
+      213: -7001664146103809036
+    second: BIgger Cube_83
+  - first:
+      213: 3865908455608891005
+    second: BIgger Cube_84
+  - first:
+      213: 1311313900274861774
+    second: BIgger Cube_85
+  - first:
+      213: 7736263209988949814
+    second: BIgger Cube_86
+  - first:
+      213: 5388426990016272411
+    second: BIgger Cube_87
+  - first:
+      213: 2767097877240169372
+    second: BIgger Cube_88
+  - first:
+      213: 2754182068375355098
+    second: BIgger Cube_89
+  - first:
+      213: 54266432445424688
+    second: BIgger Cube_90
+  - first:
+      213: -6426043127280720057
+    second: BIgger Cube_91
+  - first:
+      213: -3934646615188141295
+    second: BIgger Cube_92
+  - first:
+      213: -6536526267074092099
+    second: BIgger Cube_93
+  - first:
+      213: 3902712048389788741
+    second: BIgger Cube_94
+  - first:
+      213: -5349882391663383706
+    second: BIgger Cube_95
+  - first:
+      213: -3467988027208782490
+    second: BIgger Cube_96
+  - first:
+      213: -8027046375843006092
+    second: BIgger Cube_97
+  - first:
+      213: 7206137416698893819
+    second: BIgger Cube_98
+  - first:
+      213: 4792072720870360516
+    second: BIgger Cube_99
+  - first:
+      213: -7302392353637316535
+    second: BIgger Cube_100
+  - first:
+      213: 7054257286985829660
+    second: BIgger Cube_101
+  - first:
+      213: 6469659814677790525
+    second: BIgger Cube_102
+  - first:
+      213: -45002300473914896
+    second: BIgger Cube_103
+  - first:
+      213: 6711814786547518549
+    second: BIgger Cube_104
+  - first:
+      213: 679351524188541469
+    second: BIgger Cube_105
+  - first:
+      213: -51428867302636493
+    second: BIgger Cube_106
+  - first:
+      213: 6780730276192846684
+    second: BIgger Cube_107
+  - first:
+      213: -7918321258134990648
+    second: BIgger Cube_108
+  - first:
+      213: 182609780255395509
+    second: BIgger Cube_109
+  - first:
+      213: -2870429540644980761
+    second: BIgger Cube_110
+  - first:
+      213: -2700521498311501822
+    second: BIgger Cube_111
+  - first:
+      213: 4419892499237731504
+    second: BIgger Cube_112
+  - first:
+      213: 7887843827623768551
+    second: BIgger Cube_113
+  - first:
+      213: -5203402973224045171
+    second: BIgger Cube_114
+  - first:
+      213: 2327504573651213518
+    second: BIgger Cube_115
+  - first:
+      213: 7670228868433783032
+    second: BIgger Cube_116
+  - first:
+      213: 9099541685014720073
+    second: BIgger Cube_117
+  - first:
+      213: -4674313295516660315
+    second: BIgger Cube_118
+  - first:
+      213: -1545349864784034471
+    second: BIgger Cube_119
+  - first:
+      213: -5171764918807286748
+    second: BIgger Cube_120
+  - first:
+      213: 7557295480547977135
+    second: BIgger Cube_121
+  - first:
+      213: 378597255352120422
+    second: BIgger Cube_122
+  - first:
+      213: -4097136696700348789
+    second: BIgger Cube_123
+  - first:
+      213: -7808979878891987808
+    second: BIgger Cube_124
+  - first:
+      213: 5431046793597121375
+    second: BIgger Cube_125
+  - first:
+      213: -1234536585154914284
+    second: BIgger Cube_126
+  - first:
+      213: 6483442803344576462
+    second: BIgger Cube_127
+  - first:
+      213: -733555604408434165
+    second: BIgger Cube_128
+  - first:
+      213: 6998036297993516005
+    second: BIgger Cube_129
+  - first:
+      213: 7121212638754341480
+    second: BIgger Cube_130
+  - first:
+      213: -1380275715826036089
+    second: BIgger Cube_131
+  - first:
+      213: 7553398633708153367
+    second: BIgger Cube_132
+  - first:
+      213: -6970619853347752066
+    second: BIgger Cube_133
+  - first:
+      213: -2380436309600001720
+    second: BIgger Cube_134
+  - first:
+      213: 2352565864824373081
+    second: BIgger Cube_135
+  - first:
+      213: 6302273530828024856
+    second: BIgger Cube_136
+  - first:
+      213: 5408977044777001155
+    second: BIgger Cube_137
+  - first:
+      213: -7512425056095581339
+    second: BIgger Cube_138
+  - first:
+      213: -491238032164008544
+    second: BIgger Cube_139
+  - first:
+      213: -3596340876926435725
+    second: BIgger Cube_140
+  - first:
+      213: 3474849499812913660
+    second: BIgger Cube_141
+  - first:
+      213: -5604327257937482906
+    second: BIgger Cube_142
+  - first:
+      213: -1916716104355097191
+    second: BIgger Cube_143
+  - first:
+      213: 5720357393384397552
+    second: BIgger Cube_144
+  - first:
+      213: -74516729915399527
+    second: BIgger Cube_145
+  - first:
+      213: 1798238774190706924
+    second: BIgger Cube_146
+  - first:
+      213: -6699037426147075510
+    second: BIgger Cube_147
+  - first:
+      213: 1125943546572498343
+    second: BIgger Cube_148
+  - first:
+      213: 3197264964954181352
+    second: BIgger Cube_149
+  - first:
+      213: -3029011692242381258
+    second: BIgger Cube_150
+  - first:
+      213: 1000442825478420688
+    second: BIgger Cube_151
+  - first:
+      213: 9076156151180808532
+    second: BIgger Cube_152
+  - first:
+      213: -7476853076281489396
+    second: BIgger Cube_153
+  - first:
+      213: 8517371785983352051
+    second: BIgger Cube_154
+  - first:
+      213: 2629181333844985941
+    second: BIgger Cube_155
+  - first:
+      213: -4630167598790135291
+    second: BIgger Cube_156
+  - first:
+      213: 5781038574231601018
+    second: BIgger Cube_157
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BIgger Cube_0
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 2251
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e21068dbfdcf100800000000000000
+      internalID: 143235293259050624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_1
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 2251
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309098b307cc5db10800000000000000
+      internalID: 2005733991470663939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_2
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 2249
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f077431541d31ed90800000000000000
+      internalID: -7070302782523934961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_3
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 2249
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c754045d919d7e0800000000000000
+      internalID: -1740331377304961974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_4
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 2249
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3349e2704b91d5e0800000000000000
+      internalID: -1886556067783425218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_5
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 2249
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac76be314aeda3930800000000000000
+      internalID: 4123853205101307850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_6
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 2247
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3378286d0c5b5930800000000000000
+      internalID: 4132998295694373695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_7
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 2247
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bc266298536d650800000000000000
+      internalID: 6257247595448683390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_8
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 2247
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2ef0f353d3856c0800000000000000
+      internalID: -4154503357348715867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_9
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 2245
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ec1b0bf92632800800000000000000
+      internalID: 586420814492061208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_10
+      rect:
+        serializedVersion: 2
+        x: 4433
+        y: 2245
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710b6a917391636a0800000000000000
+      internalID: -6469956090226888681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_11
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 2245
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb0136acc6ea8140800000000000000
+      internalID: 4722840925887335348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_12
+      rect:
+        serializedVersion: 2
+        x: 5285
+        y: 2243
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a3d0cd5bcfbe130800000000000000
+      internalID: 3597246585396607633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_13
+      rect:
+        serializedVersion: 2
+        x: 5709
+        y: 2243
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333ab8cff909303b0800000000000000
+      internalID: -5547431299179109581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_14
+      rect:
+        serializedVersion: 2
+        x: 6135
+        y: 2241
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0782a3b970b185060800000000000000
+      internalID: 6942328545074620528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_15
+      rect:
+        serializedVersion: 2
+        x: 6559
+        y: 2243
+        width: 88
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8a5364c7278cf30800000000000000
+      internalID: 4596049297811024101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_16
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2003
+        width: 88
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41082b6a73670c80800000000000000
+      internalID: -8356601206127722166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_17
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 2003
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71dc19133f6db1e0800000000000000
+      internalID: -2180464379322117763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_18
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 2001
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0d70b1b3003f1d0800000000000000
+      internalID: -3318308246585356066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_19
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 2001
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85806583a4b335e0800000000000000
+      internalID: -1931001200801446516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_20
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 2001
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba8e08bb112f7e80800000000000000
+      internalID: -8178781995345737039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_21
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 2001
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0b180553765e820800000000000000
+      internalID: 2946875009865462003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_22
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 2001
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d268a704c561fa760800000000000000
+      internalID: 7471214892305516077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_23
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 2003
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3b912be2594dcc0800000000000000
+      internalID: -3687158167120530477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_24
+      rect:
+        serializedVersion: 2
+        x: 3577
+        y: 2003
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c48f21c4c15b880800000000000000
+      internalID: -8595933200705368963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_25
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 2003
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558e0836d876ce8b0800000000000000
+      internalID: -5121604819269654443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_26
+      rect:
+        serializedVersion: 2
+        x: 4431
+        y: 2003
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053159817fc499bd0800000000000000
+      internalID: -2622980683813547184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_27
+      rect:
+        serializedVersion: 2
+        x: 4857
+        y: 2003
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6ef9b54805adfb0800000000000000
+      internalID: -4622293538139281710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_28
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 2003
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfaa379f777aa970800000000000000
+      internalID: 8766951014511849417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_29
+      rect:
+        serializedVersion: 2
+        x: 5711
+        y: 2003
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9504da6815c0cd030800000000000000
+      internalID: 3520702552988270681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_30
+      rect:
+        serializedVersion: 2
+        x: 6139
+        y: 2005
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63754b6059c40c370800000000000000
+      internalID: 8340750712836478774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_31
+      rect:
+        serializedVersion: 2
+        x: 6565
+        y: 2005
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4496365163da72e80800000000000000
+      internalID: -8203397748433393340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_32
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1765
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c6fff2e95a71850800000000000000
+      internalID: 6347724298630687755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_33
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1767
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4614511fc1b85e6b0800000000000000
+      internalID: -5267651232719879836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_34
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1767
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bba97feed3e1dd0800000000000000
+      internalID: -2513503445460534369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_35
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 1769
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e687afb93760bf30800000000000000
+      internalID: 4589281518016759520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_36
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1769
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54bae54a0d493ab0800000000000000
+      internalID: -5027902802464426916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_37
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 1769
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1461c845bc101980800000000000000
+      internalID: -8570318525950761957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_38
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 1771
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6edf15d4ff36f4ef0800000000000000
+      internalID: -121768716750684698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_39
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 1771
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f328a6539eb359850800000000000000
+      internalID: 6383073919677137471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_40
+      rect:
+        serializedVersion: 2
+        x: 3593
+        y: 1773
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fc3b03dd7dad380800000000000000
+      internalID: -8945600364813234385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_41
+      rect:
+        serializedVersion: 2
+        x: 4019
+        y: 1773
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e757083a723843080800000000000000
+      internalID: -9208591131795753602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_42
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 1773
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d3d84a2e606bf60800000000000000
+      internalID: 8049628954464435513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_43
+      rect:
+        serializedVersion: 2
+        x: 4871
+        y: 1773
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6105782c0d933b800800000000000000
+      internalID: 626908341914259478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_44
+      rect:
+        serializedVersion: 2
+        x: 5297
+        y: 1773
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d28e1813492c4a0800000000000000
+      internalID: -6574529565653717609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_45
+      rect:
+        serializedVersion: 2
+        x: 5721
+        y: 1771
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bf62344e0f48c60800000000000000
+      internalID: 7819639716191861592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_46
+      rect:
+        serializedVersion: 2
+        x: 6147
+        y: 1771
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5487717a9042bd0800000000000000
+      internalID: -2655987266983803409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_47
+      rect:
+        serializedVersion: 2
+        x: 6571
+        y: 1769
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c19a9355c6b9890800000000000000
+      internalID: -7450242045258949602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_48
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1529
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339d15ca0b949b790800000000000000
+      internalID: -7513893480136845005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_49
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1527
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10d3535bcc6ec380800000000000000
+      internalID: -8949095789006434275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_50
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1527
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90240e733ca967170800000000000000
+      internalID: 8175892336784458249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_51
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1527
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d298a4813660e51d0800000000000000
+      internalID: -3360241249292744403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_52
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 1525
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc44cf84cb4aaaa80800000000000000
+      internalID: -8454764221849385779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_53
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 1525
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b30fede91a7f9d80800000000000000
+      internalID: -8241734541280083019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_54
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 1525
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d295b632bd7f8530800000000000000
+      internalID: 3859441610055324377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_55
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 1523
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72af3806eef3076e0800000000000000
+      internalID: -1841901954540504537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_56
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 1523
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00abcf02c33acebd0800000000000000
+      internalID: -2599523406252819968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_57
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 1523
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c9c539dd9995990800000000000000
+      internalID: -7396711736040186728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_58
+      rect:
+        serializedVersion: 2
+        x: 4431
+        y: 1523
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696db876292e9d390800000000000000
+      internalID: -7792948561757612394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_59
+      rect:
+        serializedVersion: 2
+        x: 4857
+        y: 1523
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84e6dc023c73e460800000000000000
+      internalID: 7269790777911731342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_60
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 1521
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87b2a5a3300df760800000000000000
+      internalID: 7493145576836609931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_61
+      rect:
+        serializedVersion: 2
+        x: 5709
+        y: 1521
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f17be60f65267ab0800000000000000
+      internalID: -5010776376615407111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_62
+      rect:
+        serializedVersion: 2
+        x: 6133
+        y: 1521
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966a5e2648b538510800000000000000
+      internalID: 1550183320898610793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_63
+      rect:
+        serializedVersion: 2
+        x: 6559
+        y: 1521
+        width: 88
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080038f1b80216c80800000000000000
+      internalID: -8331342053757484928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_64
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1281
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d77e30a24a78c930800000000000000
+      internalID: 4163712282078902228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_65
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1281
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2dfa3d9ffd2b380800000000000000
+      internalID: -8956850444795129108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_66
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1281
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df72011893439b60800000000000000
+      internalID: 7751613704034222032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_67
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1283
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c545b9e2b13e44c00800000000000000
+      internalID: 884081132757013596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_68
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1283
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7717703628750e740800000000000000
+      internalID: 5179235788994867575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_69
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1283
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb73805782944840800000000000000
+      internalID: 5207448179016170421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_70
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 1285
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f5bf8682745b340800000000000000
+      internalID: 4878884010211368718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_71
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 1285
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484703a36f8f83e40800000000000000
+      internalID: 5636528670076073092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_72
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 1285
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa92cac15720c8010800000000000000
+      internalID: 1192330703361812906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_73
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 1287
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4236b9051b9dc7910800000000000000
+      internalID: 1836582103645119268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_74
+      rect:
+        serializedVersion: 2
+        x: 4437
+        y: 1287
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc74bb64bbba57850800000000000000
+      internalID: 6374189668446717899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_75
+      rect:
+        serializedVersion: 2
+        x: 4865
+        y: 1289
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb8cff10b8a2aa70800000000000000
+      internalID: 8836810893258689517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_76
+      rect:
+        serializedVersion: 2
+        x: 5291
+        y: 1289
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b94713e574d0bc0800000000000000
+      internalID: -3815314839430718578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_77
+      rect:
+        serializedVersion: 2
+        x: 5719
+        y: 1291
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939be0895c0e673f0800000000000000
+      internalID: -903287535976924871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_78
+      rect:
+        serializedVersion: 2
+        x: 6147
+        y: 1291
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae5d3f7ad498b110800000000000000
+      internalID: 1276934160518045346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_79
+      rect:
+        serializedVersion: 2
+        x: 6573
+        y: 1289
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b836de4af9bc6520800000000000000
+      internalID: 2696734761603709110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_80
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1049
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a2eb4453ab65ef0800000000000000
+      internalID: -119703602129393012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_81
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1049
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c708b4458bf7f1670800000000000000
+      internalID: 8511662250418471036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_82
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1047
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ebc979f298d6b60800000000000000
+      internalID: 7740994172019850873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_83
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1047
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbc4e63e8715de90800000000000000
+      internalID: -7001664146103809036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_84
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1045
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d763fb6024776a530800000000000000
+      internalID: 3865908455608891005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_85
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 1045
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec64aee6b09b23210800000000000000
+      internalID: 1311313900274861774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_86
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 1043
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6378058a66abc5b60800000000000000
+      internalID: 7736263209988949814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_87
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 1043
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b181c0e5cc987ca40800000000000000
+      internalID: 5388426990016272411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_88
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 1043
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9343afcbd4b66620800000000000000
+      internalID: 2767097877240169372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_89
+      rect:
+        serializedVersion: 2
+        x: 4007
+        y: 1041
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade7348bff1d83620800000000000000
+      internalID: 2754182068375355098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_90
+      rect:
+        serializedVersion: 2
+        x: 4433
+        y: 1041
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0342325680bc0c000800000000000000
+      internalID: 54266432445424688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_91
+      rect:
+        serializedVersion: 2
+        x: 4857
+        y: 1041
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747a71782db12d6a0800000000000000
+      internalID: -6426043127280720057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_92
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 1041
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b840900c35569c0800000000000000
+      internalID: -3934646615188141295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_93
+      rect:
+        serializedVersion: 2
+        x: 5707
+        y: 1041
+        width: 88
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3e90afdf79945a0800000000000000
+      internalID: -6536526267074092099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_94
+      rect:
+        serializedVersion: 2
+        x: 6133
+        y: 1041
+        width: 88
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54419e83ee7392630800000000000000
+      internalID: 3902712048389788741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_95
+      rect:
+        serializedVersion: 2
+        x: 6559
+        y: 1041
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b69c64f4661c5b0800000000000000
+      internalID: -5349882391663383706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_96
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 801
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66da9e0734b3fdfc0800000000000000
+      internalID: -3467988027208782490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_97
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 801
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4797a4ca9d33a9090800000000000000
+      internalID: -8027046375843006092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_98
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 803
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf51dfcfcc7510460800000000000000
+      internalID: 7206137416698893819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_99
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 803
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5415900ccd08240800000000000000
+      internalID: 4792072720870360516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_100
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 803
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9484be618d0b8aa90800000000000000
+      internalID: -7302392353637316535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_101
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 803
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d4001a0a1c5e160800000000000000
+      internalID: 7054257286985829660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_102
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 805
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f3d7fd259d8c950800000000000000
+      internalID: 6469659814677790525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_103
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 805
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f94d2a65ae106ff0800000000000000
+      internalID: -45002300473914896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_104
+      rect:
+        serializedVersion: 2
+        x: 3577
+        y: 805
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c0166dcf7252d50800000000000000
+      internalID: 6711814786547518549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_105
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 807
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12d0e4ac9a8d6900800000000000000
+      internalID: 679351524188541469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_106
+      rect:
+        serializedVersion: 2
+        x: 4431
+        y: 807
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334c939b7b9494ff0800000000000000
+      internalID: -51428867302636493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_107
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 807
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c530636a24ef91e50800000000000000
+      internalID: 6780730276192846684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_108
+      rect:
+        serializedVersion: 2
+        x: 5285
+        y: 809
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0907fc4c87c1290800000000000000
+      internalID: -7918321258134990648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_109
+      rect:
+        serializedVersion: 2
+        x: 5713
+        y: 809
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be82aca0a2c88200800000000000000
+      internalID: 182609780255395509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_110
+      rect:
+        serializedVersion: 2
+        x: 6139
+        y: 811
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7711d7a8f2a28d0800000000000000
+      internalID: -2870429540644980761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_111
+      rect:
+        serializedVersion: 2
+        x: 6567
+        y: 811
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20856d85102d58ad0800000000000000
+      internalID: -2700521498311501822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_112
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 573
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc7a7a7fcc965d30800000000000000
+      internalID: 4419892499237731504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_113
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 573
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1b54d6b20477d60800000000000000
+      internalID: 7887843827623768551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_114
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 573
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85f4cd809cc9c7b0800000000000000
+      internalID: -5203402973224045171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_115
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 573
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccd39df315fc4020800000000000000
+      internalID: 2327504573651213518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_116
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 573
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f821f86480227a60800000000000000
+      internalID: 7670228868433783032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_117
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 571
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e692a73f0184e70800000000000000
+      internalID: 9099541685014720073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_118
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 571
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad08d3c2d0812fb0800000000000000
+      internalID: -4674313295516660315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_119
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 569
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95589df4c70dd8ae0800000000000000
+      internalID: -1545349864784034471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_120
+      rect:
+        serializedVersion: 2
+        x: 3593
+        y: 569
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c2aa025333a38b0800000000000000
+      internalID: -5171764918807286748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_121
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 569
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa72ab40338e0e860800000000000000
+      internalID: 7557295480547977135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_122
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 567
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6647336a23c014500800000000000000
+      internalID: 378597255352120422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_123
+      rect:
+        serializedVersion: 2
+        x: 4869
+        y: 567
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8655f4c1eb0427c0800000000000000
+      internalID: -4097136696700348789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_124
+      rect:
+        serializedVersion: 2
+        x: 5295
+        y: 565
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac58748c2ee0a390800000000000000
+      internalID: -7808979878891987808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_125
+      rect:
+        serializedVersion: 2
+        x: 5719
+        y: 565
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5371eaa844fe5b40800000000000000
+      internalID: 5431046793597121375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_126
+      rect:
+        serializedVersion: 2
+        x: 6145
+        y: 565
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4181e93448b0edee0800000000000000
+      internalID: -1234536585154914284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_127
+      rect:
+        serializedVersion: 2
+        x: 6569
+        y: 565
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf8aeef0e0d9f950800000000000000
+      internalID: 6483442803344576462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_128
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 323
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b020d387013e1d5f0800000000000000
+      internalID: -733555604408434165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_129
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 323
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e371339fe40e1160800000000000000
+      internalID: 6998036297993516005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_130
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 323
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86289f64a21a3d260800000000000000
+      internalID: 7121212638754341480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_131
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 323
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782571aac8648dce0800000000000000
+      internalID: -1380275715826036089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_132
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 323
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a6819a90013d860800000000000000
+      internalID: 7553398633708153367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_133
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 323
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77fbe0ec22634f90800000000000000
+      internalID: -6970619853347752066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_134
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 323
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841a9dbd9cdf6fed0800000000000000
+      internalID: -2380436309600001720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_135
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 321
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ff09b803ef5a020800000000000000
+      internalID: 2352565864824373081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_136
+      rect:
+        serializedVersion: 2
+        x: 3579
+        y: 321
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ce95aa26c267750800000000000000
+      internalID: 6302273530828024856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_137
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 323
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0ec28d6fb801b40800000000000000
+      internalID: 5408977044777001155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_138
+      rect:
+        serializedVersion: 2
+        x: 4431
+        y: 321
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bcda9c6318eb790800000000000000
+      internalID: -7512425056095581339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_139
+      rect:
+        serializedVersion: 2
+        x: 4857
+        y: 323
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adc3b8cc95ce29f0800000000000000
+      internalID: -491238032164008544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_140
+      rect:
+        serializedVersion: 2
+        x: 5281
+        y: 323
+        width: 88
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e3593d60b371ec0800000000000000
+      internalID: -3596340876926435725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_141
+      rect:
+        serializedVersion: 2
+        x: 5707
+        y: 323
+        width: 88
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1ea44a535293030800000000000000
+      internalID: 3474849499812913660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_142
+      rect:
+        serializedVersion: 2
+        x: 6133
+        y: 323
+        width: 88
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66be8994d0e6932b0800000000000000
+      internalID: -5604327257937482906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_143
+      rect:
+        serializedVersion: 2
+        x: 6559
+        y: 323
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995d4a8bbd47665e0800000000000000
+      internalID: -1916716104355097191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_144
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 83
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fad4f4ddbac26f40800000000000000
+      internalID: 5720357393384397552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_145
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 85
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992a19fcd6347fef0800000000000000
+      internalID: -74516729915399527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_146
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 85
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce098fc33a0a4f810800000000000000
+      internalID: 1798238774190706924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_147
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 85
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ad47534fc3803a0800000000000000
+      internalID: -6699037426147075510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_148
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 85
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5e89aa0b720af00800000000000000
+      internalID: 1125943546572498343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_149
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 85
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee45e8bb87fe5c20800000000000000
+      internalID: 3197264964954181352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_150
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 87
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636536f0ae9c6f5d0800000000000000
+      internalID: -3029011692242381258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_151
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 87
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8babef27942ed00800000000000000
+      internalID: 1000442825478420688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_152
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 89
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451db159eebf4fd70800000000000000
+      internalID: 9076156151180808532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_153
+      rect:
+        serializedVersion: 2
+        x: 4011
+        y: 89
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08847ebdb1ec3890800000000000000
+      internalID: -7476853076281489396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_154
+      rect:
+        serializedVersion: 2
+        x: 4439
+        y: 89
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcd87b2388c33670800000000000000
+      internalID: 8517371785983352051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_155
+      rect:
+        serializedVersion: 2
+        x: 4867
+        y: 91
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5580bed3e7abc7420800000000000000
+      internalID: 2629181333844985941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_156
+      rect:
+        serializedVersion: 2
+        x: 5293
+        y: 91
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502379fb9175ebfb0800000000000000
+      internalID: -4630167598790135291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BIgger Cube_157
+      rect:
+        serializedVersion: 2
+        x: 5719
+        y: 91
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fb7e934ff5a3050800000000000000
+      internalID: 5781038574231601018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
